@@ -1,0 +1,1520 @@
+{
+  "welcome": "Welcome to our Dental Clinic",
+  "years": "Years",
+  "smile": "Smiles",
+  "doctor": "Doctors",
+  "branch": "Our Branches",
+  "vms": " View More Smiles",
+  "technology": "Technology",
+  "dental": "Dental",
+  "dermatology": "Dermatology",
+  "availTitle": "Available Here",
+  "before": "Before",
+  "after": "After",
+  "drH": "A New Day, A",
+  "drH1": "New Case.",
+  "mainHigh": "We Change Lives",
+  "navigation": {
+    "discover": "Discover",
+    "careers": "Careers",
+    "technology": "Technology",
+    "qualityGallery": "Quality Gallery",
+    "about": "About",
+    "contact": "Contact",
+    "ourDoctors": "Our Doctors",
+    "bookAppointment": "Book Appointment"
+  },
+  "buttons": {
+    "toggleLanguage": "عربي",
+    "learnMore": "Learn More",
+    "bookAppointment": "Book Appointment",
+    "subscribe": "Subscribe",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "home": {
+    "title": {
+      "line1": "Brighten Your Smile",
+      "line2": "Brighten Your Day"
+    },
+    "description": "Our philosophy is based on providing the best dental and dermatological care.",
+    "buttons": {
+      "learnMore": "Learn More"
+    },
+    "sections": {
+      "features": {
+        "leaders": {
+          "title": "Pioneers",
+          "subtitle": "in dentistry and dermatology"
+        },
+        "modern": {
+          "title": "State of the Art",
+          "subtitle": "modern clinic"
+        },
+        "standards": {
+          "title": "Redefending standards",
+          "subtitle": "in Patient Care"
+        }
+      }
+    }
+  },
+  "qg": {
+    "title": {
+      "line1": "Delivering Quality, ",
+      "line2": "One Smile at a Time"
+    },
+    "description": "Our philosophy is built on providing the world's best cosmetic dental care.",
+    "buttons": {
+      "learnMore": "Learn More"
+    },
+    "sections": {
+      "features": {
+        "leaders": {
+          "title": "Leaders",
+          "subtitle": "in Cosmetic Dentistry"
+        },
+        "modern": {
+          "title": "State of the Art",
+          "subtitle": "modern clinic"
+        },
+        "standards": {
+          "title": "Redefending standards",
+          "subtitle": "in Patient Care"
+        }
+      }
+    }
+  },
+  "discovers": {
+    "dental": [
+      {
+        "title": "ITero",
+        "description": "An advanced digital solution and alternative to traditional impressions, the Itero 3D Dental Printer scans with highly sensitive sensors with unparalleled speed and accuracy, generating 3D images inside the mouth. This technology provides accurate images of the mouth and teeth and an ultra-precise analysis of jaw congruency, facilitating the accurate preparation of Invisalign clear aligners. In addition, it helps diagnose tooth decay with high accuracy and provides immediate visualization of what the future smile will look like after treatment.",
+        "availAt": " Al Saud Plaza, Al Nozha, Al Juffali, Shawqiya, Tahlia ,Al Hamdaniya ,Hiraand Tabuk.",
+        "image": "techno/iTero.png"
+      },
+      {
+        "title": "Microscope",
+        "description": "The microscope used in root canal therapy is a revolution in the field of dentistry. Thanks to its high-magnification capability, the root canal specialist can clearly and precisely see the details and intricate spaces within the roots, making it easier to diagnose and treat. This magnification technology enhances the accuracy and effectiveness of root canal treatment, reducing the likelihood of future complications and increasing the success rate of treatment. It also minimizes pain and recovery time and improves the overall patient experience.",
+        "availAt": " Saud Plaza , Nuzha , Shuqiya, Hira",
+        "image": "/Images/scientist-2141259%20(1).jpg"
+      },
+      {
+        "title": "Panorama",
+        "description": "Panoramic dental radiography is a digital imaging technique that provides a single, comprehensive image of the entire jaws, teeth and skeletal structure surrounding the mouth and face, without the need to take multiple images from different angles as in traditional dental imaging. Some of the features of panoramic radiography.",
+        "availAt": "",
+        "image": "/Images/Panaroma.jpg"
+      },
+      {
+        "title": "Laughing gas",
+        "description": "Laughing gas is a technique used in dental treatment to help patients eliminate anxiety and fear during treatment. Also known as nitrous oxide, laughing gas is a medical gas that is inhaled through a small mask placed over the nose. Laughing gas calms and relaxes the patient, and may also relieve pain.",
+        "availAt": "",
+        "image": "/Images/Laughing Gas.jpg"
+      }
+    ],
+    "dermatology": [
+      {
+        "title": "Clarity II Laser",
+        "description": "Artificial Intelligence Laser Clarity II is an advanced laser hair removal technology, offering a new level of effectiveness in hair removal",
+        "availAt": "Al-Saud Plaza",
+        "image": "techno/Clarity-2.png"
+      },
+      {
+        "title": "Gegntle Max ProLaser",
+        "description": "Gegntle Max ProLaser dental radiography is a digital imaging technique providing a single, comprehensive image of the jaws, teeth, and skeletal structure — without multiple images from different angles.",
+        "availAt": "Al-Saud Plaza",
+        "image": "techno/gentlemax pro.png"
+      },
+      {
+        "title": "Elite+ Laser",
+        "description": "eliteLaser dental radiography is a digital imaging technique providing a single, comprehensive image of the jaws, teeth, and skeletal structure — without multiple images from different angles.",
+        "availAt": "Al-Saud Plaza",
+        "image": "techno/Elite IQ.png"
+      },
+      {
+        "title": "Laser Spectra",
+        "description": "Spectra laser is one of the most powerful and best laser skin treatment devices around the world and is the only device globally that has been approved by the US Food and Drug Administration (FDA) for the treatment of melasma, and among its main advantages.",
+        "availAt": "Al-Saud Plaza",
+        "image": "/Images/IMG_0034.JPG"
+      },
+      {
+        "title": "Hydratouch",
+        "description": "Hydratouch is the latest deep cleansing technology to date and is the evolutionary update of the HydraFacial, a non-invasive medical procedure used to rejuvenate the skin and fight aging with a device that performs three skin functions, ranging from 45 minutes to an hour, to improve skin quality, remove impurities, nourish, moisturize and tighten the skin, close small pores, and fight the signs of aging.",
+        "availAt": "Al-Saud Plaza",
+        "image": "techno/hydratouch.png"
+      },
+      {
+        "title": "Sylfirm X",
+        "description": "An upgraded version of the Scarette device, by combining microneedling or micro-needling with RF waves, Silverm X offers a versatile solution for various skin issues, the most important of which are.",
+        "availAt": "Al-Saud Plaza",
+        "image": "/Images/IMG_0034.JPG"
+      },
+      {
+        "title": "Ultraformer",
+        "description": "Ultraformer is a non-surgical cosmetic device used to tighten and improve the appearance of the skin, based on intense ultrasound technology known as HIFU technology. This technology targets the deeper layers of the skin to stimulate collagen production and improve skin elasticity.",
+        "availAt": "Al-Saud Plaza",
+        "image": "/Images/IMG_0034.JPG"
+      },
+      {
+        "title": "Regenera",
+        "description": "Regenera is a non-surgical treatment for hair loss, using microinjections of hair growth-stimulating stem cells that help stimulate hair growth naturally without the need for hair transplant surgery. It can be used to treat hereditary baldness, age-related hair loss, and even to promote hair growth after hair transplant procedures to enhance results and improve hair density.",
+        "availAt": "Al-Saud Plaza",
+        "image": "/Images/IMG_0034.JPG"
+      }
+    ]
+  },
+  "treatments": {
+    "title": "Our Treatments",
+    "dermatology": {
+      "title": "Dermatology Department",
+      "bleaching": "We offer advanced dermatology and cosmetic treatments using cutting-edge technology and expert care — all delivered with elegance, precision, and international standards.",
+      "laser": {
+        "title": "Dental treatment",
+        "description": "We provide expert dental care using advanced technology and top-quality materials — all to ensure healthy, confident smiles"
+      },
+      "dermapen": {
+        "title": "Product",
+        "description": "Dermapen session + mesotherapy for skin freshness and tightening + mesotherapy for lip augmentation"
+      }
+    }
+  },
+  "about": {
+    "title": "Leaders in Cosmetic Dentistry",
+    "trust": "About Quality",
+    "history": {
+      "title": "Our Story",
+      "description": "Quality Clinics has evolved over the years...",
+      "founded": "2008 - Company Founded",
+      "journey": "Our journey began with a small team and a big vision to transform the industry"
+    },
+    "hero": {
+      "title": "Leaders in Dentistry,\nDermatology and Cosmetology",
+      "contactButton": "Learn More"
+    },
+    "progress": {
+      "trustText": "About Quality",
+      "historyTitle": "Our Story",
+      "evolutionText": "From our name we started, and by experience we distinguished ourselves Quality Clinics started in 2008 from the city of Makkah with one branch in the Nozha neighborhood, where the spark of the search for the highest quality standards was launched, it is our name, we start by introducing ourselves, and we are not satisfied with it as a call, but we carry it as a duty on our shoulders, we are not satisfied except with the highest achievable standard of quality, and the higher we climb, the closer we get to the summit, the summit of quality: Mastery, Charity and Efficiency.",
+      "standardText": "We pride ourselves on offering the highest standard of care to all patients",
+      "presentTitle": "Look at us now...",
+      "currentDay": "Present Day",
+      "reputationText": "We continue to build on our reputation for being the go-to dental practice in Saudi Arabia for Smile Makeovers, Implants and Facial Aesthetics",
+      "consultationText": "If you're interested in visiting us for a consultation, then please get in touch below:"
+    },
+    "services": {
+      "EXCELLENCE": {
+        "title": "Excellence",
+        "description": "We pledge to continuous development and leadership in providing medical services with the latest scientific technology."
+      },
+      "MASTERY": {
+        "title": "Mastery",
+        "description": "We are a team of specialists and consultants in various specialties with global competencies and long experience in diagnosing, studying and treating various conditions."
+      },
+      "HONESTY": {
+        "title": "Honesty",
+        "description": "We strive to promote the principle of honesty, integrity and transparency with all our customers."
+      },
+      "QUALITY": {
+        "title": "Quality",
+        "description": "We focus on making our customers' experience the best by providing high quality services and safe sterilization standards."
+      },
+      "sectionTitle": "Our Values"
+    },
+    "services2": {
+      "Ouroutstandingservices": {
+        "title": "Our Outstanding Services",
+        "description": "All dental and dermatology specialties in one place.Precise treatment plans that suit each case to ensure the best results. State-of-the-art technology such as 3D scanner (iTero) and medical microscope."
+      },
+      "Comprehensiveandseamlesscare": {
+        "title": " Comprehensive and Seamless Care",
+        "description": "Outstanding customer service and comfortable waiting rooms.Strict and transparent sterilization standards. "
+      }
+    }
+  },
+  "practice": {
+    "title": "Each case",
+    "highlight": " has a story",
+    "description": "At Quality Cure Clinic, our practice is built on a foundation of trust, excellence, and innovation. We bring together expert medical teams, advanced technology, and a commitment to care — offering a seamless experience that prioritizes your health, beauty, and comfort. ",
+    "images": {
+      "alt": "Practice facility image"
+    }
+  },
+  "app": {
+    "title": "Get Our App",
+    "description": "Download our dental clinic app for easy appointment booking, reminders, and more!",
+    "googlePlay": "Download on Google Play",
+    "appStore": "Download on App Store",
+    "image": {
+      "alt": "Dental clinic mobile app preview"
+    },
+    "community": {
+      "title": "Stay in touch",
+      "join": "Join our Community",
+      "spam": "Don't worry — we won't spam you with countless emails or texts. Stay in touch and receive VIP offers and first-access to our events!",
+      "email": "Enter your email",
+      "terms": "By clicking Sign Up you're confirming that you agree with our Terms and Conditions."
+    },
+    "successPartner": {
+      "title": "Success",
+      "gradient": "Partner"
+    }
+  },
+  "careers": {
+    "submissionSuccess": "Application submitted successfully!",
+    "submissionFailed": "Failed to submit application. Please try again.",
+    "networkError": "Network error. Please check your internet connection.",
+    "title": "Apply Now!",
+    "subTitle": "Contact",
+    "description": "Join Our Family",
+    "googlePlay": "Download on Google Play",
+    "appStore": "Download on App Store",
+    "image": {
+      "alt": "Dental clinic mobile app preview"
+    },
+    "formFields": {
+      "firstName": "First name",
+      "lastName": "Last Name",
+      "postApplyingFor": "Post applying for",
+      "emailAddress": "Email address",
+      "contact": "Contact",
+      "attachResume": "Attach Resume (JPEG/PNG/PDF/WORD)",
+      "submit": "Submit",
+      "firstNameRequired": "First name is required.",
+      "lastNameRequired": "Last name is required.",
+      "postApplyingForRequired": "Please specify the post you are applying for.",
+      "emailRequired": "Email address is required.",
+      "contactInvalid": "Please enter a valid contact number.",
+      "resumeRequired": "Resume file is required."
+    }
+  },
+  "contact": {
+    "head": "Contact",
+    "title": "We are happy ",
+    "locateUs": " to serve you ",
+    "clinic": "Quality Clinics, Saudi Arabia",
+    "phone": "Phone",
+    "email": "Email",
+    "formFields": {
+      "firstName": "First name",
+      "lastName": "Last Name",
+      "emailAddress": "Email address",
+      "contact": "Contact",
+      "location": "Select Location",
+      "service": "Select Service",
+      "message": "Message",
+      "submit": "Submit",
+      "firstNameRequired": "First name is required.",
+      "lastNameRequired": "Last name is required.",
+      "emailRequired": "Email address is required.",
+      "contactInvalid": "Please enter a valid contact number.",
+      "locationRequired": "Please select a location.",
+      "serviceRequired": "Please select a service."
+    }
+  },
+  "smileMakeover": {
+    "title": "Stars who chose us for their beauty journey",
+    "description": "We are proud to be the destination that many celebrities have trusted for their therapeutic and cosmetic experiences at our clinics.",
+    "beforeAlt": "Before treatment image",
+    "afterAlt": "After treatment image"
+  },
+  "testimonials": {
+    "title": "What they said about us",
+    "subtitle": "Their trust reflects the exceptional experience they had on their first visit. We cherish every word they have said, because it is a reflection of our genuine interest in every detail of their journey with us.",
+    "cards": [
+      {
+        "text": "Thank you, Dr. Sarah. May God bless her. Honestly, she deserves thanks. I wish you success and happiness. I had a minor nerve extraction in her hand. She was very skilled and ethical in her work. Thank you.",
+        "author": "Hammad Al-Anazi"
+      },
+      {
+        "text": "VerOne of the best clinics I have been to, especially Dr. Muhammad Qasim, who is skilled in jaw and dental surgery with all honesty and gives you all of his time, God willing 👌",
+        "author": "Abdullah Alyafeai"
+      },
+      {
+        "text": "I had two surgical extractions of impacted wisdom teeth with Dr. Muhammad Qasim, may God bless him. He was extremely professional and honest, provided a thorough explanation of the case, and provided satisfactory results.",
+        "author": "Samar Mohammed"
+      },
+      {
+        "text": "My experience was with Dr. Ammar for my children, God willing, he was nice and comfortable with them, and the reception and helpful staff were all pleasant, from the distinguished clinics in Al-Hamdaniya.",
+        "author": "Abod Balto"
+      },
+      {
+        "text": "I worked in cleaning and installation work for Dr. Muhammad Saleh, a graduate of Germany. To be honest, his work is clean and his hand is light, God willing.. Good luck",
+        "author": "Ammar Qasem "
+      }
+    ]
+  },
+  "timeline": {
+    "founded": {
+      "year": "2008",
+      "title": "Company Founded",
+      "description": "From here our story began, we went on with our slogan “From our name we started”, and after more than fifteen years since the first question: (How can we have a share of our name?) we expanded to an integrated network of more than 11 branches of quality clinics between Makkah, Jeddah, Taif, Tabuk and Madinah, during which we attracted the most skilled specialists and consultants with degrees from the best international universities in dental and dermatological specialties, and attracted the latest technology constantly, until we became one of the first specialized clinics that focused on providing medical care with efficiency and quality to ensure a healthy and satisfying smile for its patients."
+    },
+    "quality": {
+      "year": "Why Quality?",
+      "title": "Why Quality?",
+      "description": "At Quality Clinics, we create happiness by drawing smiles that light up faces and fill hearts. We consider our patients our partners in this journey, and we are committed to providing comprehensive care with the highest quality standards, through integrated medical services that include dental and dermatological specialties under one roof."
+    },
+    "vision": {
+      "year": "Vision",
+      "title": "Vision",
+      "description": "To be the first choice for those looking for accurate diagnosis and quality treatment in a safe and sterile environment with expert hands using the latest technologies, where quality is the main criterion for our services and not an additional option."
+    },
+    "mission": {
+      "year": "Mission",
+      "title": " Our Mission",
+      "description": "We seek to satisfy our customers and meet all their needs under one roof and provide them with the highest levels of health care, which we are keen to meet the latest international standards and provide them with the latest technology and under the supervision of a team of consultants and specialists from international universities."
+    },
+    "leadersinInvisalign": {
+      "year": "Leaders in Invisalign",
+      "title": "Leaders in Invisalign",
+      "description": "Led by Dr. Mohammed Baghreb, the first Invisalign Diamond Apex Consultant in the Kingdom, with over 25 years of experience and 3000 successful cases.\n\n Quality Clinics is characterized as the perfect destination for a perfect smile and high-end services, because we take care of every detail for the satisfaction and happiness of our partners."
+    },
+    "chairmanMessage": {
+      "year": "Chairman's Message",
+      "title": "Chairman's Message",
+      "description": "On the occasion of the 15th anniversary of the establishment of Al-Jawda Clinics, I am pleased to thank God for his success and extend my sincere thanks to everyone who contributed to the growth and excellence of this medical edifice, which is characterized by providing world-class specialized medical services, with a group of 9 branches that meet the needs of our dear patients; who gave us the confidence to draw the most beautiful smiles for them. We provide them with the best treatment plan and ensure its success using the latest technologies and by specialized doctors and consultants in a comfortable atmosphere and distinguished service.\n \n Our ambition grows in light of the unlimited support of our wise government, and within the framework of Vision 2030, we are committed to achieving our vision of providing the best healthcare, and we always strive to achieve excellence and innovation in everything we do.\n\n  We thank you for your trust in us, and we promise to continue to strive to provide the best health services with professionalism and dedication."
+    }
+  },
+  "loader": {
+    "dental": "Dental",
+    "texts": [
+      "Artists",
+      "Experts",
+      "Leaders",
+      "Visionaries"
+    ]
+  },
+  "drView": {
+    "education": "Education",
+    "experience": "Experience",
+    "certificates": "Professional Certificates",
+    "languages": "Languages Can Speak",
+    "viewMore": "View More",
+    "smileTransf": {
+      "title": "Smile Transformations",
+      "description": "Discover how our patients transformed their smiles with our advanced dental treatments. Swipe through the slider to see the before and after images."
+    }
+  },
+  "team": {
+    "meetDentist": "Meet Our Team",
+    "title": "Expert Dentists",
+    "subtitle": "Leading specialists in modern dentistry",
+    "viewAll": "View All Doctors",
+    "members": [
+      {
+        "name": "Dr. Badr Ali Abu Bakr",
+        "specification": "Orthodontist",
+        "text": "Facial Reconstruction Expert",
+        "level": "Specialist",
+        "joiningYear": "2021",
+        "line": "A smile and the alignment of your teeth are the first definition of yourself. He believes that quality is not an option, but a commitment reflected in every step of his treatment journey",
+        "moto": "Your smile and aligned teeth are the first definition of who you are",
+        "description": "He holds a Master's degree in Orthodontics from the University of the East (Manila, Philippines) in 2020, a university distinguished by its applied programs. He also holds a British Fellowship in Orthodontics.",
+        "avableTiming": "Al Hamdaniya Saturday Wednesday 1 PM to 9 PM Saudi Sunday Monday Tuesday 1 PM to 9 PM",
+        "workPlaces": "",
+        "education": {
+          "phD": "",
+          "masters": "Master of Orthodontics - University of the East (Manila - Philippines) 2020",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery - Jordan University of Science and Technology - 2013"
+        },
+        "expe": {
+          "exp1": "",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "British Fellowship in Orthodontics",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Osama Hassan Ashour",
+        "specification": "General dentist",
+        "text": "Root Canal Treatment Expert",
+        "level": "General Practitioner",
+        "joiningYear": "2011",
+        "line": "Integrity in work is the foundation of success.  He believes that quality is a commitment, and he embodies this with experience and competence that guarantees you exceptional care.",
+        "moto": "ntegrity at work is the foundation of success.",
+        "description": "He holds a Bachelor's degree in Oral and Dental Medicine and Surgery from the University of Science and Technology, a leading university in dental education. He also completed the American Maxi Course in Dental Implants and is a member of the American Society of Implant Dentistry with over 13 years of experience. He combines academic competence with practical experience in patient care.",
+        "avableTiming": "1 PM to 9 PM",
+        "workPlaces": "Saudi Arabia",
+        "education": {
+          "phD": "",
+          "masters": "",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery - University of Science and Technology - 2007"
+        },
+        "expe": {
+          "exp1": "Experience in Oral and Maxillofacial Surgery at Al Noor Hospital 2008-2010",
+          "exp2": "Thanaya Clinic 2010-2011",
+          "exp3": "Quality Complex from 2011 to date",
+          "exp4": ""
+        },
+        "certifition": "American Maxi Course for Dental Implants",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Nourhan Mamdouh",
+        "specification": "Dermatology",
+        "text": "Smile Makeover Expert",
+        "level": "Specialist",
+        "joiningYear": "2021",
+        "line": "Beauty is a responsibility in which you must ensure quality and safety.",
+        "moto": "Aesthetics is a responsibility, always prioritizing quality and safety.",
+        "description": "A specialist in dermatology and aesthetics, she holds a Master's degree in dermatology from Cairo University in 2013, along with a diploma from the American Academy of Aesthetic Medicine and membership in the European Society of Dermatology. She has worked for over 10 years at Al Noor Hospital in Mecca, gaining her distinguished clinical experience and high skill in precise cosmetic and therapeutic procedures, in addition to laser, filler, and Botox injections, with a constant commitment to providing natural and safe results.",
+        "avableTiming": "1 PM to 9 PM Thursday 11 AM to 7 PM,",
+        "workPlaces": "Mecca Al Saud Plaza",
+        "education": {
+          "phD": "PhD in Oral and Maxillofacial Surgery, Karolinska University, Sweden",
+          "masters": "Master's degree in Dermatology, Cairo University, 2013",
+          "Bachelors": "Bachelor of Medicine and Surgery, Cairo University"
+        },
+        "expe": {
+          "exp1": "Al Noor Specialized Hospital, Makkah Al Mukarramah / 10 years",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "Diploma of the American Academy of Aesthetic Medicine, Member of the American Society of Plastic Surgeons, Many advanced courses in cosmetic injections",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Nayef Mohammed Ba Faraj",
+        "specification": "Dental repair and beautification",
+        "text": "Implants and Sedation Expert",
+        "level": "Resident Physician",
+        "joiningYear": "2022",
+        "line": "",
+        "moto": "You deserve to smile 😀",
+        "description": "He holds a Bachelor's degree in Oral and Dental Medicine and Surgery from the University of Science and Technology. With 10 years of experience, he is committed to providing comprehensive professional care that focuses on patient comfort and quality of procedures.",
+        "avableTiming": "4 PM to 9 PM",
+        "workPlaces": "Mecca Al-Shawqiya",
+        "education": {
+          "phD": "The Saudi Board is currently in its final year. I expect to graduate in 2025, God willing.",
+          "masters": "",
+          "Bachelors": "Ibn Sabna College 2020"
+        },
+        "expe": {
+          "exp1": "Al Raqi Experts Clinics, two months - Safwat Al Mahidib, one month - Al Jawdah Clinics, Saud Plaza branch, one year",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Sami Jihad",
+        "specification": "Endodontics Dental nerve treatment",
+        "text": "Oral Surgery Specialist",
+        "level": "Specialist",
+        "joiningYear": "2024",
+        "line": "Treating a patient's treatment lies in developing a comprehensive treatment plan to provide the best possible service. Endodontic treatment (tooth roots) using a magnifying microscope and other modern equipment can be performed in as few visits as one treatment session, during which we extract the root canal and remove broken instruments, thus preserving the tooth without extraction as much as possible",
+        "moto": "The key to treating a patient lies in creating a comprehensive treatment plan to provide the best service. Root canal treatment (endodontics) with the use of a microscope and other modern equipment allows us to complete the procedure in the fewest visits, often in a single session where we remove the nerve and eliminate broken tools, preserving the tooth without extraction as much as possible.",
+        "description": "He holds a Master's degree in Endodontics from Cairo University in 2013. He has over 10 years of practical experience, having worked as a lecturer and professor at Ibn Sina College in Jeddah. He works to provide innovative treatment solutions to ensure the preservation of teeth and treat them accurately and effectively.",
+        "avableTiming": "Saturday, Monday, Wednesday, from 1 pm to 9 pm. Sunday, Tuesday, and Thursday.",
+        "workPlaces": "Jeddah Tahlia and Hira",
+        "education": {
+          "phD": "",
+          "masters": "Master's degree, Cairo University, 2013",
+          "Bachelors": "Bachelor of Science, Misr University for Science and Technology, 2006"
+        },
+        "expe": {
+          "exp1": "Ibn Sina College 10 years Bloudan Clinic",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Ghassan Abdullah Aliwa",
+        "specification": "Teeth",
+        "text": "",
+        "level": "General Practitioner",
+        "joiningYear": "2024",
+        "line": "Understanding Visual Aesthetics Behind Successful Smile Design.",
+        "moto": "He is committed to applying research-based knowledge in clinical practice to deliver thoughtful and effective results.",
+        "description": "He holds a Bachelor's degree in Oral and Dental Medicine and Surgery from Umm Al-Qura University. He has participated in advanced courses in cosmetic fillings and veneers, and is particularly interested in smile aesthetics and precision in implementation.",
+        "avableTiming": "9 AM to 5 PM",
+        "workPlaces": "Mecca Al Saud Plaza",
+        "education": {
+          "phD": "",
+          "masters": "",
+          "Bachelors": "Bachelor of Medicine and Surgery in Dental Art - Umm Al-Qura University - 2024"
+        },
+        "expe": {
+          "exp1": "6 months experience as a physician at King Abdulaziz Hospital in Mecca Attachment",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "Courses in cosmetic fillings, veneers and partial dentures",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Muhammad Qasim Saleh",
+        "specification": "Oral and maxillofacial surgery",
+        "text": "Senior Specialist",
+        "level": "Senior Specialist",
+        "joiningYear": "January 2024",
+        "line": "Excellence in oral health care and dental implants with skill, precision, and commitment to the highest German medical standards.",
+        "moto": "Excellence in oral health and dental implant care, delivered with precision, skill, and strict adherence to the highest German medical standards",
+        "description": "He holds the German Board of Oral and Maxillofacial Surgery from the University of Tübingen in Germany, a prestigious university in clinical and surgical medicine. He also holds a subspecialty in dental implants from the German Society for Dental Implantology and is a member of the Association of German Oral Surgeons. He has 10 years of practical experience in major medical centers in Germany.",
+        "avableTiming": "Saudi branch Wednesday from 2 pm to 10 pm Saturday and Sunday 1 pm to 9 pm and Tahlia branch Monday from 2 pm to 10 pm Al Hamdaniyah branch Thursday from 1 pm to 9 pm",
+        "workPlaces": "Mecca Saud Plaza Jeddah Tahlia, Tahlia",
+        "education": {
+          "phD": "German Board in Oral and Maxillofacial Surgery - University of Tübingen, Germany - 2015",
+          "masters": "",
+          "Bachelors": "Bachelor of Oral and Dental Medicine and Surgery - University of Science and Technology - Sana'a - 2005 AD"
+        },
+        "expe": {
+          "exp1": "- March 2010 - Jun 2014 (4 years): Practical and theoretical training in Department of Oral and Maxillofacial surgery, Tübingen medical University Hospital & BG unfall-Clinic, Germany.",
+          "exp2": "May 2016 - September 2017 (1.5 year) Dentist, Oral Surgeon & Implantologist Clinic Dr. Wilde, Öhringen-Germany.",
+          "exp3": " January 2018 - September 2021 (3.5 years) Dentist, Oral surgeon & Implantologist Clinic Khalaf GmbH, Neuneburg, Germany."
+        },
+        "exp4": " December 2021 - October 2022 Dentist, Oral Surgeon & Implantologist Clinic Dr. Wehrheim, Pforzheim, Germany.",
+        "certifition": "January 2018 - September 2021 (3.5 years) Dentist, Oral surgeon & Implantologist Clinic Khalaf GmbH, Neuneburg, Germany.",
+        "langCanSpeak": "Arabic, English, German"
+      },
+      {
+        "name": "Dr. Fatima Muharram",
+        "specification": "Dermatology and cosmetics",
+        "text": "Jaw Pain and TMD Expert",
+        "level": "Specialist",
+        "joiningYear": "",
+        "line": "",
+        "moto": "",
+        "description": "",
+        "avableTiming": "",
+        "workPlaces": "",
+        "education": {
+          "phD": "",
+          "masters": "Master's degree in Dermatology, Benha University, 2011",
+          "Bachelors": "Bachelor of Medicine and Surgery, Tanta University, 2003"
+        },
+        "expe": {
+          "exp1": "National City Hospital 2 years",
+          "exp2": "Al Maha Medical Complex 4 years",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "Laser training course certificates, filler, Botox and cosmetic threads training course certificates",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Ammar Muhammad Ramadan",
+        "specification": "Children's teeth",
+        "text": "Oral Surgery Specialist",
+        "level": "Specialist",
+        "joiningYear": "December 10, 2022",
+        "line": "I create little smiles and nurture the teeth of the future.",
+        "moto": "",
+        "description": "",
+        "avableTiming": "Hira Saturday and Wednesday 1 pm to 9 pm Al Hamdaniya Sunday Monday Tuesday Thursday 1 pm to 9 pm",
+        "workPlaces": "Jeddah Hira and Al Hamdaniyah",
+        "education": {
+          "phD": "",
+          "masters": "Master of Pediatric Dentistry, Al-Azhar University, Cairo 2022",
+          "Bachelors": "Bachelor of Dentistry, Al-Azhar University, Cairo, 2014"
+        },
+        "expe": {
+          "exp1": "My private clinic in Egypt from 2015 to 2022 in Alexandria and Kafr El Sheikh",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Haider Barakat",
+        "specification": "Periodontology",
+        "text": "Gum Disease and Implant Specialist",
+        "level": "Senior Specialist",
+        "joiningYear": "15/3/2022",
+        "line": "We believe that your smile is the key to success.",
+        "moto": "He believes that a healthy smile is the foundation of personal and community success, and works to enhance oral health to beautiful and sustainable smiles.",
+        "description": "He earned his Doctorate in Clinical Medicine from Vernadskva University in 2019, one of the world's leading universities in clinical medicine. He has over 14 years of practical experience.",
+        "avableTiming": "Saturday from 1:30 to 9:30 PM First shift: from 9:30 AM to 12:30 PM Second shift: from 4:30 PM to 9:30 PM",
+        "workPlaces": "Tabuk",
+        "education": {
+          "phD": "Doctorate in Clinical Medicine - Vernadskva University - 2019",
+          "masters": "Master of Supporting Tissue Diseases - Damascus University - 2016",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery - Damascus University 2012"
+        },
+        "expe": {
+          "exp1": "14 years of experience in clinics in Syria and Russia Dr. Ghassan Makhoul Clinic, Syria-Damascus 2012-2016 (General Dentist, Periodontist)",
+          "exp2": "Stolitsa Clinic, Moscow, Russia 2016-2022 (Endodontist, Periodontist, Implantologist)",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English, Russian"
+      },
+      {
+        "name": "Dr. Tahani Rashad Jamal",
+        "specification": "Dental restoration, advanced conservative and cosmetic treatment, and rehabilitation of comprehensive and complex cases",
+        "text": "Crowns and Implants Expert",
+        "level": "Consultative",
+        "joiningYear": "2022",
+        "line": "Advanced conservative and cosmetic treatment, and rehabilitation of comprehensive and complex cases.",
+        "moto": "Relieving patients' pain is one of my top priorities.",
+        "description": "She has been certified by the Saudi Board in Restorative Dentistry, Advanced Conservative Dentistry, and Cosmetic Dentistry since 2012. She has over 23 years of professional experience, during which she worked as a consultant at Umm Al-Qura University and contributed to the training and qualification of many resident doctors.She has participated as a speaker at numerous scientific conferences and events inside and outside the Kingdom. She holds a Fellowship from the Royal College of Surgeons of Edinburgh (endodontics) and a Diploma in Dental Implants from the Riyadh Colleges.",
+        "avableTiming": "Al-Shawqiyah Monday 5 pm to 9 pm \n Al-Nuzha Tuesday 5 pm to 9 pm",
+        "workPlaces": "",
+        "education": {
+          "phD": "Advanced Conservative and Cosmetic Dentistry - Saudi Commission for Health Specialties - Saudi Board - 2012",
+          "masters": "",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery - King Abdulaziz University - 1998"
+        },
+        "expe": {
+          "exp1": "Consultant Physician, Umm Al-Qura University (University Medical Center, 23 years)",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "1- Saudi Board Certificate in Restorative Dentistry, Advanced Conservative and Cosmetic Treatment, and Comprehensive Case Rehabilitation \n 2- Completion of Clinical Cases Fellowship of the Royal College of Surgeons of Edinburgh (Root Root Canal Treatment) \n 3- Diploma in Dental Implants from Riyadh Colleges of Dentistry and Pharmacy",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Muwaffaq Hassan Al-Bili",
+        "specification": "Gum diseases and surgery",
+        "text": "Specialist",
+        "level": "Specialist",
+        "joiningYear": "January 2022",
+        "line": "Oral hygiene and regular follow-ups every 6 months can solve most gum problems.",
+        "moto": "",
+        "description": "He holds a Master's degree in Periodontics and Periodontics from the University of Khartoum, a prestigious university in the field of medicine and dental sciences. He also holds a fellowship in Restorative and Aesthetic Dentistry from the University of Genoa and a Higher Diploma in Dental Implantology from the British Academy. He has over 16 years of experience in treating gums and periodontal problems.",
+        "avableTiming": "1 PM to 9 PM",
+        "workPlaces": "Mecca Al-Juffali",
+        "education": {
+          "phD": "",
+          "masters": "Master of Periodontics - University of Khartoum - 2017",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery - University of Khartoum - 2009"
+        },
+        "expe": {
+          "exp1": "Al Amal National Hospital Khartoum 2009 - 2010",
+          "exp2": "Teaching Dental Hospital Khartoum 2010 - 2011",
+          "exp3": "Martyr Anas Saleh Center 2011 - 2016",
+          "exp4": "Modern Dental Center Khartoum 2016 - 2021 Bashayer Teaching Hospital 2018 - 2021"
+        },
+        "certifition": "Fellowship in Restorative and Aesthetic Dentistry - University of Genoa Diploma in Scientific Research and Statistics - University of Science and Technology",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Abdullah Badahman",
+        "specification": "Gum disease and dental implants",
+        "text": "Family Dental Care Expert",
+        "level": "Specialist",
+        "joiningYear": "2019",
+        "line": "Gum treatment and care are the cornerstone of the success of all dental treatments.",
+        "moto": "Gum treatment and care are the cornerstone of successful dental procedures.",
+        "description": "He earned a Master's degree in Oral and Periodontal Diseases from Alexandria University in 2013, a prestigious Arab university specializing in advanced dentistry.He also holds a Higher Diploma in Dental Implantology from Riyadh Al-Elm University in Riyadh. He is known for his clinical precision and in-depth understanding of gum health, resulting in balanced and consistent treatment results that support oral health and the patient's smile for years to come.",
+        "avableTiming": "Saturday 1 pm to 5 pm Monday Tuesday Wednesday 2 pm to 9 pm, Sunday 1 pm to 9 pm Thursday 1 pm to 7 pm",
+        "workPlaces": "Hira , Al-Shawqiyah,Al-Nuzha ",
+        "education": {
+          "phD": "",
+          "masters": "Master of Oral and Periodontal Diseases - Alexandria University - 2013",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery - University of Science and Technology - 2007"
+        },
+        "expe": {
+          "exp1": "Al-Anah Dental Clinics from 11/2015 to 12/2018",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "Higher Diploma in Dental Implants - Riyadh Elm University - 2015 Fellowship of the World Congress of Dental Implants 2013",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Susan Bakr Netto",
+        "specification": "Gum diseases and surgery",
+        "text": "Braces and Aligners Specialist",
+        "level": "Consultative",
+        "joiningYear": "2023",
+        "line": "",
+        "moto": "",
+        "description": "She holds a doctorate from Karolinska University in Sweden, one of the world's most prestigious universities for medical research. She is also a Swedish board-certified periodontist and has completed advanced treatment courses. She specializes in orthodontic-associated gingivitis. With her extensive experience and diverse competencies, she embodies the concept of quality in every step, because you deserve the best.",
+        "avableTiming": "Tuesday 5 PM to 8 PM",
+        "workPlaces": "SaudiArabia",
+        "education": {
+          "phD": "PhD in Oral and Maxillofacial Surgery, Karolinska University, Sweden",
+          "masters": "Master's degree in Dermatology, Cairo University, 2013",
+          "Bachelors": "Bachelor of Medicine and Surgery, Cairo University"
+        },
+        "expe": {
+          "exp1": "King Faisal General Hospital in Mecca for 3 years and Al Noor Specialized Hospital in Mecca for 19 years",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "Swedish Board Certificate in Periodontal Diseases and Surgery/Course in Ozone Gum Treatment",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Saeed Ahmed Bajafar",
+        "specification": "Pediatric Dentist",
+        "text": "Oral Surgery Specialist",
+        "level": "Specialist",
+        "joiningYear": "",
+        "line": "Every little laugh deserves great care.",
+        "moto": "Holds a Master's degree in Pediatric Dentistry, and is well known for his exceptional skill.",
+        "description": "He holds a Master's degree in Pediatric Dentistry and is known for his proficiency in dealing with children and embracing their care during treatment He is highly trusted by parents thanks to his calm demeanor and ability to win over and reassure children. He has research contributions in the field of pediatric dentistry, enhancing his scientific and clinical understanding of this delicate specialty. His excellence in providing care stems from his commitment to the highest standards of quality.",
+        "avableTiming": "1 PM to 9 PM",
+        "workPlaces": "Mecca Al Saud Plaza",
+        "education": {
+          "phD": "",
+          "masters": "Master of Pediatric Dentistry - Ain Shams University - 2020",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery - University of Aden - 2013 AD"
+        },
+        "expe": {
+          "exp1": "Al-Maydan Health Complex, one year.",
+          "exp2": "Lifeline Health Complex, one year.",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "1-An Update On Managing The Oral Health Of Patient With Special Health Care Need 2-Clinical Endodontic Program 3-Fundamental Principles To Implement Nitrous Oxide And Minimal Oral Sedation In Clinical Practice 4-Kinder Crowns Course 5-Pediatric Full Mouth Rehabilitation Under General Anesthesia Course 5-The Use Of Rotary Pulpectomy And Zirconia Crown In Pediatric Dentistry Course",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Ramzi Saeed Al-Mashharawi",
+        "specification": "Orthodontics",
+        "text": "Specialist",
+        "level": "Specialist",
+        "joiningYear": "2019",
+        "line": "He is known for his precise diagnostics and well-balanced treatment plans that help patients restore both their smile and functional comfort.",
+        "moto": "",
+        "description": "He earned a Master's degree in Orthodontics from Al Sharq University in 2019, a university known for its fine dental specialties. His practice relies on the latest technologies, such as Invisalign, to provide effective and transparent treatment solutions that suit all ages and fit the patient's lifestyle. He is distinguished by his high diagnostic accuracy and balanced treatment plans, helping patients restore their smile and functional comfort.",
+        "avableTiming": "Al-Juffali Saturday Tuesday Wednesday 3 pm to 10 pm Hira Sunday Monday Thursday 3 pm to 9 pm",
+        "workPlaces": "Jeddah Hira, Mecca Al-Jafali",
+        "education": {
+          "phD": "",
+          "masters": "Master of Orthodontics - University of the East - 2019",
+          "Bachelors": "Bachelor of Oral and Dental Medicine and Surgery - Misr University for Science and Technology - 2010"
+        },
+        "expe": {
+          "exp1": "International Medical Center Hospital 4 years",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Wissam Essam Al-Tayyar",
+        "specification": "General Dentistry",
+        "text": "General Dentistry",
+        "level": "General Practitioner",
+        "joiningYear": "11/17/2023",
+        "line": "Step by step to building a smile characterized by quality and perfection.",
+        "moto": "",
+        "description": "He holds a Bachelor's degree in Oral and Dental Medicine and Surgery from Umm Al-Qura University, one of the leading universities in medical education in the Kingdom. He is interested in scientific research and has academic contributions, including a research paper titled Partial Pulpotomy as an Applicable Treatment Option.",
+        "avableTiming": "1 PM to 9 PM",
+        "workPlaces": "Jeddah Tahlia",
+        "education": {
+          "phD": "",
+          "masters": "",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery - Umm Al-Qura University - 2022 AD"
+        },
+        "expe": {
+          "exp1": "",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Ayman Abdullah bin Nashwan",
+        "specification": "Dentistry",
+        "text": "Dentistry",
+        "level": "General Practitioner",
+        "joiningYear": "2021",
+        "line": "Your oral health is your overall health.",
+        "moto": "",
+        "description": "Holds a Bachelor's degree in Dental Medicine and Surgery (2005). He has over 20 years of experience in general dentistry and preventive care. He believes that proper dental care is the foundation of overall health and always strives to provide the best treatments to ensure a healthy and sustainable smile.",
+        "avableTiming": "2 PM to 9 PM",
+        "workPlaces": "Mecca Al-Nuzha",
+        "education": {
+          "phD": "",
+          "masters": "",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery - University of Aden - 2005 AD"
+        },
+        "expe": {
+          "exp1": "Balghson Clinics 10 years",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Alaa Najdat Shaheen",
+        "specification": "Dental implant and cosmetic specialist",
+        "text": "Specialist",
+        "level": "Specialist",
+        "joiningYear": "2022",
+        "line": "We work on restoring oral health and enhancing the beauty of the smile through high-quality dental design and prosthetics.",
+        "moto": "",
+        "description": "He earned a master's degree in dental prosthetics from Damascus University in 2018, a leading Arab university in the field of advanced prosthetics.He combines aesthetic sense with clinical precision to provide tailor-made solutions that give each patient a smile that suits them.",
+        "avableTiming": "Al-Hamdaniya Saturday 1 pm to 9 pm Tahlia Sunday Tuesday Thursday 1 pm to 9 pm Al-Shawqiya Monday and Wednesday 1 pm to 9 pm",
+        "workPlaces": "Jeddah, Tahlia, Al-Hamdaniya,Mecca, Al-Shawqiah",
+        "education": {
+          "phD": "",
+          "masters": "Master of Dental Prosthodontics - Damascus University 2018",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery - International University for Science and Technology - 2013"
+        },
+        "expe": {
+          "exp1": "Gulf Smile Complex (Khamis Mushayt) 2 years",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Anas Abdulrahman Al-Harbi",
+        "specification": "Oral and Dental Medicine and Surgery",
+        "text": "Oral and Dental Medicine and Surgery",
+        "level": "General Practitioner",
+        "joiningYear": "2019",
+        "line": "Your smile is the secret to your happiness.",
+        "moto": "",
+        "description": "He holds a Bachelor's degree in Oral and Dental Medicine and Surgery from Umm Al-Qura University, and provides comprehensive care that reflects his concern for all aspects of oral health and smiles.",
+        "avableTiming": "1 PM to 9 PM",
+        "workPlaces": "Mecca Al-Nuzha",
+        "education": {
+          "phD": "",
+          "masters": "",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery - Umm Al-Qura University - 2019"
+        },
+        "expe": {
+          "exp1": "",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Shahd Ahmed Babtain",
+        "specification": "General dentist",
+        "text": "General Practitioner",
+        "level": "General Practitioner",
+        "joiningYear": "2021",
+        "line": "Her work focuses on providing preventive and therapeutic care to ensure optimal oral health and a beautiful, long-lasting smile.",
+        "moto": "",
+        "description": "She holds a Bachelor's degree in Oral and Dental Medicine and Surgery from Al-Farabi College. She is a member of the Saudi Dental Society, the Saudi Society of Endodontics, and the Saudi Society of Periodontics.",
+        "avableTiming": "1 PM to 9 PM",
+        "workPlaces": "Jeddah Hira",
+        "education": {
+          "phD": "",
+          "masters": "",
+          "Bachelors": "Bachelor of Oral and Dental Medicine and Surgery - Al-Farabi College - 2018"
+        },
+        "expe": {
+          "exp1": "Dentalia - 3 years",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Asmaa Al-Amin Nimr Al-Amin",
+        "specification": "Pediatric Dentist",
+        "text": "Resident Physician",
+        "level": "Resident Physician",
+        "joiningYear": "24/8/2024",
+        "line": "Pediatric dentistry is important for early awareness of dental care and proper nutrition, and mothers should take care of their children's oral health from the time their first tooth erupts.",
+        "moto": "She focuses on prevention and early treatment to ensure children's dental health and proper development.",
+        "description": "She holds a Bachelor's degree in Oral and Dental Medicine and Surgery from the University of Science and Technology and a Master's degree in Pediatric Dentistry from Cairo University in 2023. She is a member of the Saudi Society of Pediatric Dentistry.",
+        "avableTiming": "From 1:30 to 9:30 PM",
+        "workPlaces": "Tabuk",
+        "education": {
+          "phD": "",
+          "masters": "Master of Pediatric Dentistry - Cairo University - 2023",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery - University of Science and Technology - Sudan - 2016"
+        },
+        "expe": {
+          "exp1": "Pediatric Dentist, Abnaay Pediatric Specialized Clinic, 01/2019 – 04/2019 Khartoum, Sudan",
+          "exp2": "Medical Officer, Military Dental Hospital, 11/2017 – 11/2018 Khartoum, Sudan",
+          "exp3": "House Officer, Khartoum Teaching Dental Hospital and University of Science and Technology, 09/2016 – 09/2017 Khartoum, Omdurman, Sudan",
+          "exp4": ""
+        },
+        "certifition": "Pediatric Dentist, Saudi Commission for Health Specialties KSA,2023 International Computer Driving License ICDL ® Egypt,2022 Professional Diploma in Infection Prevention and Control, Arab Institute for Continuing Professional Development (AICPD), 01/2017 – 02/2018 Khartoum, Sudan Nitrous Oxide Course for Dental Professionals, MASTERY ACADEMY® interceptive orthodontics, Hayat Dental Education",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Anas Ibrahim Fathi",
+        "specification": "General Dentist",
+        "text": "General Practitioner",
+        "level": "General Practitioner",
+        "joiningYear": "4/13/2024",
+        "line": "Trust that we can change your life by changing your smile.",
+        "moto": "",
+        "description": "He holds a Bachelor's degree in Oral and Dental Medicine and Surgery from Al-Azhar University. He started working at Quality Clinics in April 2024. He believes that a smile is not just about beauty, but rather a gateway to changing a person's life, and he always strives to provide the best treatments to ensure oral and smile health.",
+        "avableTiming": "Saturday from 1:30 to 9:30 PM First shift: from 9:30 AM to 12:30 PM Second shift: from 4:30 PM to 9:30 PM",
+        "workPlaces": "Tabuk",
+        "education": {
+          "phD": "",
+          "masters": "",
+          "Bachelors": "Bachelor of Oral and Dental Medicine and Surgery - Al-Azhar University - 2017 AD"
+        },
+        "expe": {
+          "exp1": "Wasm Clinic (Egypt) 2 years",
+          "exp2": "Al-Birr and Taqwa Hospital (Egypt) 4 years",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic"
+      },
+      {
+        "name": "Dr. Riyadh Mohammed Mahdi",
+        "specification": "Orthodontist and Maxillofacial Surgeon",
+        "text": "Specialist",
+        "level": "Specialist",
+        "joiningYear": "2020",
+        "line": "",
+        "moto": "Mastery and Excellence in Work.",
+        "description": "He holds a Master's degree in Orthodontics and Maxillofacial Surgery from the United States. He is also American Board Certified in the same specialty. He has 10 years of practical experience between the United States and the Kingdom of Saudi Arabia. He believes that every beautiful smile begins with expert orthodontics, and he works to achieve the best results using the latest technologies to ensure comfort and aesthetics for patients.",
+        "avableTiming": "Picnic Saturday 2 PM to 10 PM Thursday 1 PM to 9 PM Shawqiah Sunday 2 PM to 10 PM Dessert Monday and Wednesday 2 PM to 10 PM",
+        "workPlaces": "Jeddah Tahlia, Mecca Al-Nuzha Al-Shawqiah",
+        "education": {
+          "phD": "",
+          "masters": "Master of Orthodontics and Maxillofacial Surgery, USA",
+          "Bachelors": "Bachelor of Oral and Dental Medicine and Surgery, Cairo University, 2009"
+        },
+        "expe": {
+          "exp1": "5 years of practical experience in the United States of America, California.",
+          "exp2": "5 years of practical experience in the Kingdom of Saudi Arabia. Quality Clinics.",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "American Board",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Mohamed Saed Fadali",
+        "specification": "Root canal treatment",
+        "text": "Specialist",
+        "level": "Specialist",
+        "joiningYear": "",
+        "line": "",
+        "moto": "",
+        "description": "He holds a Master's degree in Endodontics from Minya University in 2021. He also completed a specialized course in microscopic root canal therapy. He believes that root canal therapy requires patience and precision, and works to provide innovative treatment solutions to ensure patient comfort and dental health.",
+        "avableTiming": "1 PM to 9 PM",
+        "workPlaces": "Mecca Al-Shawqiya",
+        "education": {
+          "phD": "",
+          "masters": "Master's in Endodontics - Minya University - 2021",
+          "Bachelors": "Bachelor of Oral and Dental Medicine and Surgery - Al-Azhar University - 2012"
+        },
+        "expe": {
+          "exp1": "Medical officer at the Egyptian Armed Forces Hospitals (3 years)",
+          "exp2": "Root canal specialist at Al Zahraa Hospital (2 years)",
+          "exp3": "Owner and director of Fadali Center for Dental Medicine and Cosmetics from 2015 until now",
+          "exp4": "Head of the Infection Control Team at Al Ra’d Hospital for one year Head of the Infection Control Team at Al Sadr Hospital for one year"
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Hesham Farouk Fouad",
+        "specification": "Orthodontics",
+        "text": "Specialist",
+        "level": "Specialist",
+        "joiningYear": "1/2025",
+        "line": "Orthodontics enhances your smile, and improves both mental and physical well-being.",
+        "moto": "",
+        "description": "He holds a Master's degree in Orthodontics from the University of Dundee in the United Kingdom, a world-class university in subspecialties. He also possesses high-level academic and professional qualifications, having been certified by the American Board of Dentistry and the British Fellowship in Orthodontics.",
+        "avableTiming": "Saturday from 1:30 to 9:30 PM First shift: from 9:30 AM to 12:30 PM Second shift: from 4:30 PM to 9:30 PM",
+        "workPlaces": "Tabuk",
+        "education": {
+          "phD": "",
+          "masters": "Master of Orthodontics, University of Dundee, UK, 2016",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery, Tanta University, 2010"
+        },
+        "expe": {
+          "exp1": "Experience of more than 4,000 cases treated with Invisalign clear braces",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Helmy Abu Bakr Al-Yamani",
+        "specification": "Orthodontics and maxillofacial surgery",
+        "text": "Specialist",
+        "level": "Specialist",
+        "joiningYear": "1/1/2025",
+        "line": "I strive to improve the smile and quality of life for patients, focusing on precision and compassionate care.",
+        "moto": "",
+        "description": "He holds a Master's degree in Orthodontics and Maxillofacial Surgery from the University of Science Malaysia, a world-renowned university known for its advanced research programs. He has participated in several scientific conferences specializing in orthodontics and has published scientific research in this field. He has also attended advanced training programs in Invisalign techniques and modern therapeutic marketing.",
+        "avableTiming": "1 PM to 9 PM",
+        "workPlaces": "AL Madinah AL Munawwarah",
+        "education": {
+          "phD": "",
+          "masters": "Master of Orthodontics and Maxillofacial Surgery - University of Science Malaysia - 2011",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery - University of Mosul - Iraq - 2000"
+        },
+        "expe": {
+          "exp1": "Orthodontist Place: Basma Al Thuraya Medical Complex City: Dammam Country: Saudi Arabia Experience years: more than 3 years",
+          "exp2": "Orthodontist place: Al-Khaiam Dental Center city: Al-Ahsa Country: Saudi Arabia Experience years: 1 year",
+          "exp3": "Orthodontist place: Amass Company for Poly clinic Complex city: Arar Country: Saudi Arabia Experience years: more than 2 years",
+          "exp4": "Orthodontist place: Al-Madar Company for Dental & Orthodontics Clinics city: Riyadh Country: Saudi Arabia Experience years: more than 2 years Date: 8/2011 to 10/2012 Job Description: Orthodontist place: Yemen French Dental Cosmetic & Implantology city: Sana'a Country: Yemen Experience years: more than 1 year Date: 11/2008 to 5/2011 Job Description: Postgraduate Orthodontist place: School of Dental Sciences, University Sciences Malaysia city: Kelantan Country: Malaysia Experience years: more than 2 years Date: 10/2004 to 5/2008 Job Description: Dentist + Orthodontists (under Supervisor) place: Yemen French Dental Center for Orthodontic & Implantology city: Sana'a Country: Yemen Experience years: more than 3 years Date; Date : 7/2000 to 7/2001​ ​ ​ ​ ​ ​​ ​ Job Description : Dental Practioner place: Specialized Health Dental Center in Al- Shaikh Omar- Ministry of Health city: Baghdad Country: Iraq Experience years: more than 1 year"
+        },
+        "certifition": "Attending the Invisalign ME Effec_ve Marketing to Double your Patient Numbers - 15/11/2021 21:00. Attendance of the Invisalign Essentials Training Course date: 28th September 2021. Attendance the Invisalign Foundation 360. Course date: 21 - 22 October 2021. Attendance Invisalign Study Club: P2P SC Clinical Topic MEA.",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Remaz Muhammad Balaji",
+        "specification": "Oral and Dental Medicine and Surgery",
+        "text": "General Practitioner",
+        "level": "General Practitioner",
+        "joiningYear": "1/1/2025",
+        "line": "Use your smile to change the world... don't let the world change your smile.",
+        "moto": "",
+        "description": "She holds a Bachelor's degree in Oral and Dental Medicine and Surgery from Ibn Sina College of Medical Sciences in 2019. She has a special interest in research, having presented a study on oral health challenges among pediatric oncology patients.",
+        "avableTiming": "1 PM to 9 PM",
+        "workPlaces": "AL Madinah AL Munawwarah",
+        "education": {
+          "phD": "",
+          "masters": "",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery - Ibn Sina - 2019"
+        },
+        "expe": {
+          "exp1": "Mohammed Hassan Kafi Clinics 2019-2020",
+          "exp2": "Dentist - Medical Director Ruh Al-Shifa Medical Clinics 2020-2022 ",
+          "exp3": " Dentist - Quality and Marketing Supervisor Maan Al-Motakhas Clinics 2022-2023 ",
+          "exp4": "Dentist - Branch Manager of Medical Hub Complex 2023, Dentist - General Manager of Cosma Dent Complex 2024 / Dentist"
+        },
+        "certifition": " Intensive Professional Course in Project Management (PMP) .. License Exam Coming Soon- Intensive Professional Course in Quality and Healthcare (CPHQ) License Exam Coming Soon - Professional Certificate in Crowd Management - Professional Certificate in Logistics and Operations for Exhibitions and Conferences - Professional Certificate in Team Management - Surveillance of healthcare associated infections - Art and Science of Endodontics - Clinical skills needed for health care practitioners - Practice to advance patient experience - Infection and blood disease",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Ahmed Al-Bayeh",
+        "specification": "Dental implants",
+        "text": "Senior Specialist",
+        "level": "Senior Specialist",
+        "joiningYear": "February 10",
+        "line": "Your smile is the key to your confidence, we design it with care to suit you",
+        "moto": "",
+        "description": "He earned his PhD in Prosthodontics from Al-Azhar University in 2021, a leading university in specialized medical education. He holds the American Board and has participated in several advanced training programs in cosmetic dentistry and root canal treatment. He also has six published scientific papers in his field.",
+        "avableTiming": "1 PM to 9 PM",
+        "workPlaces": "AL Madinah AL Munawwarah",
+        "education": {
+          "phD": "PhD in Dental Prosthetics - Al-Azhar University - 2021",
+          "masters": "Master of Dental Prosthodontics - Cairo University - 2012",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery - Cairo University - 2024"
+        },
+        "expe": {
+          "exp1": "Ram Clinics - Sinai University - 2 years",
+          "exp2": "Al-Jouf University - 3 years",
+          "exp3": "Egyptian Ministry of Health - 18 years",
+          "exp4": "Private Clinics - 15 years"
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Mu'ayyad Shaker Al-Muqdad",
+        "specification": "General Dentist",
+        "text": "General Practitioner",
+        "level": "",
+        "joiningYear": "02/12/2025",
+        "line": "Your health matters to us, and your beautiful smile is our goal.",
+        "moto": "",
+        "description": "He earned a Bachelor's degree in Dental Medicine and Surgery from Damascus University in 2000 and has extensive experience in general dental care. He has participated in several professional courses, including Rotary Root Canal Therapy and Digital Smile Design, which enrich his therapeutic and cosmetic tools.",
+        "avableTiming": "1 PM to 9 PM",
+        "workPlaces": "Mecca Al-Shawqiya",
+        "education": {
+          "phD": "",
+          "masters": "",
+          "Bachelors": "Bachelor of Dental Surgery - Damascus University - 2000 AD"
+        },
+        "expe": {
+          "exp1": "Dr. Ahmed Al-Mousa Dental Clinic 5",
+          "exp2": "Aram Medical Clinic 7",
+          "exp3": "Al-Sharq Medical Clinic 7",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Sarah Bashir Al-Hassan",
+        "specification": "Bachelor of Dental Medicine and Surgery",
+        "text": "General Practitioner",
+        "level": "General Practitioner",
+        "joiningYear": "2020 AD",
+        "line": "Dental health is the key to your self-confidence, and my goal is to be the reason for your smile.",
+        "moto": "",
+        "description": "She holds a Bachelor's degree in Oral and Dental Medicine and Surgery from Syria. Her practice focuses on understanding patients' needs and providing comfortable, comprehensive care that enhances their self-confidence.",
+        "avableTiming": "1 PM to 9 PM",
+        "workPlaces": "Jeddah Al-Hamdaniyah",
+        "education": {
+          "phD": "",
+          "masters": "",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery, Al-Baath University, Syria, 2005"
+        },
+        "expe": {
+          "exp1": "2020 My current time Quality Dental Clinic",
+          "exp2": "2015 AD to 2020 AD Mayo Dental Center Jubail Saudi Arabia",
+          "exp3": "2008 AD to 2014 AD Modern Dental Clinic Khartoum Sudan",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Ahmed Hassan Sobh",
+        "specification": "Orthodontist",
+        "text": "Specialist",
+        "level": "Specialist",
+        "joiningYear": "2017",
+        "line": "Orthodontics creates a beautiful smile and boosts your self-confidence.",
+        "moto": "",
+        "description": "He earned a Master's degree in Orthodontics from Al Sharq University in 2017. He ranked third in orthodontics at the World Orthodontics Conference in 2016. He is part of the distinguished medical team at Quality Clinics, working alongside Dr. Mohammed Baghraib, the Kingdom's leading consultant for Invisalign technology. He has over 8 years of experience at Quality Clinics for Dentistry and Orthodontics.",
+        "avableTiming": "Tahlia Branch Saturday Sunday 2 PM to 10 PM Thursday 1 PM to 9 PM Shawqiah Branch Monday Tuesday Wednesday 2 PM to 10 PM",
+        "workPlaces": "Jeddah Tahlia, Makkah Al-Shuqiyah",
+        "education": {
+          "phD": "",
+          "masters": "Master's degree in Orthodontics, University of the East, 2017",
+          "Bachelors": "Bachelor of Oral and Dental Medicine and Surgery, 6th of October University, 2012 - Training, Kasr El Ainy Hospital, 2013"
+        },
+        "expe": {
+          "exp1": "8 years in Quality Dental and Orthodontic Clinics",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "Awarded 3rd place in orthodontics at the World Orthodontic Congress in 2016",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dima Ismail Al-Shabili",
+        "specification": "Oral and Dental Medicine and Surgery",
+        "text": "General Practitioner",
+        "level": "General Practitioner",
+        "joiningYear": "December 2024",
+        "line": "Committed to quality, committed to achieving the smile of your dreams.",
+        "moto": "",
+        "description": "A dentist with a bachelor's degree from Umm Al-Qura University and a member of the Saudi Orthodontic Society,She adopts a practical approach that focuses on procedure quality and patient satisfaction.",
+        "avableTiming": "1 PM to 9 PM",
+        "workPlaces": "Mecca Al-Shawqiya",
+        "education": {
+          "phD": "",
+          "masters": "",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery - Umm Al-Qura University - 2022 AD"
+        },
+        "expe": {
+          "exp1": "Smile plaza dental clinic ",
+          "exp2": "Midlife clinic",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Mohammed Abdul Rahman Al-Jishani",
+        "specification": "Dentist",
+        "text": "General Practitioner",
+        "level": "General Practitioner",
+        "joiningYear": "2022",
+        "line": "Providing the best service.",
+        "moto": "",
+        "description": "He holds a Bachelor's degree in Oral and Dental Medicine and Surgery from the University of Science and Technology. With 10 years of experience, he is committed to providing comprehensive professional care that focuses on patient comfort and quality of procedures.",
+        "avableTiming": "1 PM to 9 PM",
+        "workPlaces": "Al-Juffali",
+        "education": {
+          "phD": "",
+          "masters": "",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery - University of Science and Technology"
+        },
+        "expe": {
+          "exp1": "10 years experience",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Fatima Burhan Bashkil",
+        "specification": "General Dentist",
+        "text": "General Practitioner",
+        "level": "General Practitioner",
+        "joiningYear": "2024",
+        "line": "Oral health is the foundation of overall health, and as a general dentist, I strive to provide comprehensive care to ensure a healthy mouth and a healthy body.",
+        "moto": "",
+        "description": "She holds a Bachelor's degree in Oral and Dental Medicine and Surgery from King Abdulaziz University. Her practice focuses on comprehensive care that ensures both oral and physical health.",
+        "avableTiming": "1 PM to 9 PM",
+        "workPlaces": "Jeddah Al-Hamdaniyah",
+        "education": {
+          "phD": "",
+          "masters": "",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery - King Abdulaziz University - 2021"
+        },
+        "expe": {
+          "exp1": "Lujain Dental Clinics",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Hind Abdel Hadi",
+        "specification": "General Dentist",
+        "text": "General Practitioner",
+        "level": "General Practitioner",
+        "joiningYear": "2016",
+        "line": "A beautiful smile is my goal.",
+        "moto": "",
+        "description": "She holds a Bachelor's degree in Oral and Dental Surgery from Syria. She has specialized courses in veneers and dental implants, enhancing her cosmetic expertise alongside her therapeutic skills.",
+        "avableTiming": "1 PM to 9 PM",
+        "workPlaces": "Jeddah Tahlia",
+        "education": {
+          "phD": "",
+          "masters": "",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery, Al-Baath University, 2012-2013"
+        },
+        "expe": {
+          "exp1": "Al Safa Clinics for two years",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Abdulaziz Saleh Al-Harthi",
+        "specification": "Restorative Dentistry",
+        "text": "Consultative",
+        "level": "Consultative",
+        "joiningYear": "2025",
+        "line": "To transform a patient's smile and make them feel confident and happy.",
+        "moto": "",
+        "description": "A Saudi Board Certified Conservative and Cosmetic Dentistry Consultant, he combines technical skill with therapeutic precision to provide aesthetic solutions that restore smiles to their natural luster and boost patients' self-confidence. His therapeutic approach is based on a deep understanding of dental aesthetics, delivering superior medical quality that is reflected in every smile he creates.",
+        "avableTiming": "Saturday and Wednesday from 5 pm to 10 pm",
+        "workPlaces": "Mecca Al Saud Plaza",
+        "education": {
+          "phD": "Holder of the Saudi Board in Conservative and Cosmetic Dentistry 2021",
+          "masters": "",
+          "Bachelors": "Bachelor of Dental Medicine and Surgery - Al-Batterjee Medical College - 2015"
+        },
+        "expe": {
+          "exp1": "Al Qunfudhah General Hospital for 3 years",
+          "exp2": "Al Noor Specialist Hospital for 1 year",
+          "exp3": "King Abdulaziz Specialist Hospital, Makkah Al Mukarramah for 3 years",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Mohammed Baghreb",
+        "specification": "Orthodontic and Maxillofacial Consultant",
+        "text": "Senior Specialist",
+        "level": "Senior Specialist",
+        "joiningYear": "",
+        "line": "",
+        "moto": "",
+        "description": "With more than 25 years of experience, Consultant Dr. Mohammed Baghreb has successfully achieved a record in treating orthodontic cases with Invisalign clear aligners; he has treated more than 2500 cases of various orthodontic cases with Invisalign, making him the first in the Kingdom in Invisalign orthodontics, according to the official Invisalign website.",
+        "avableTiming": "Saturday and Wednesday from 5 pm to 10 pm",
+        "workPlaces": "Jeddah | Tahlia , Makkah | Shawqiya , Makkah | Al Awali - Al Saud, Tabuk | Al Olaya",
+        "education": {
+          "phD": "",
+          "masters": "",
+          "Bachelors": ""
+        },
+        "expe": {
+          "exp1": "",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      },
+      {
+        "name": "Dr. Khaldun Darwish",
+        "specification": "Consultant Maxillofacial Surgeon ",
+        "text": "Senior Specialist",
+        "level": "Senior Specialist",
+        "joiningYear": "",
+        "line": "",
+        "moto": "",
+        "description": "With more than 25 years of experience, Consultant Dr. Mohammed Baghreb has successfully achieved a record in treating orthodontic cases with Invisalign clear aligners; he has treated more than 2500 cases of various orthodontic cases with Invisalign, making him the first in the Kingdom in Invisalign orthodontics, according to the official Invisalign website.",
+        "avableTiming": "Saturday and Wednesday from 5 pm to 10 pm",
+        "workPlaces": "Jeddah | Tahlia, Makkah | Al Awali - Al Saud , Makkah | Nozha,Makkah | Shawqiya",
+        "education": {
+          "phD": "",
+          "masters": "",
+          "Bachelors": ""
+        },
+        "expe": {
+          "exp1": "",
+          "exp2": "",
+          "exp3": "",
+          "exp4": ""
+        },
+        "certifition": "",
+        "langCanSpeak": "Arabic, English"
+      }
+    ]
+  },
+  "book": {
+    "title": " Book your appointment now",
+    "description": "Start your smile and beauty journey with Quality Cure Clinic"
+  },
+  "footer": {
+    "logo": {
+      "alt": "Quality Clinics Logo"
+    },
+    "contact": {
+      "address": " Quality Cure Clinic, Saudi Arabia",
+      "phone": "920004864",
+      "email": "info@qualityclinics.sa"
+    },
+    "navigation": {
+      "title": "Quick Links",
+      "home": "Home",
+      "about": "About Us",
+      "contact": "Contact Us",
+      "referrals": "Employement",
+      "treatments": "Our Treatments",
+      "technology": "Technology",
+      "discover": "Branches",
+      "ourApp": "Our App"
+    },
+    "useful": {
+      "title": "Useful Links",
+      "blog": "Blogs",
+      "ourDoctors": "Our Doctors",
+      "news": "",
+      "complaints": "Complaints or suggestions"
+    },
+    "treatments": {
+      "title": "Treatments",
+      "bonding": "Composite Bonding",
+      "invisalign": "Invisalign®",
+      "implants": "Implants",
+      "whitening": "Tooth Whitening",
+      "aesthetics": "Facial Aesthetics"
+    },
+    "subscribe": {
+      "title": "Subscribe",
+      "description": "Join our newsletter to stay up to date on features and releases.",
+      "placeholder": "Enter your email",
+      "terms": "By subscribing, you agree to our Privacy Policy and consent to receive updates from our company."
+    },
+    "copyright": {
+      "development": "Website By Gravit Infosystems pvt. ltd",
+      "rights": "© 2023 Quality Clinics. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookies Settings"
+    }
+  },
+  "discover": {
+    "heading": "Find Us",
+    "subHeading": "Us",
+    "title": "Branch locations",
+    "branches": {
+      "NozhaBranchMakkah": {
+        "name": "Nozha Branch - Makkah",
+        "address": "Makkah, Al Nozha neighborhood, Islam Square, Al Falah Towers - Al Mizan II",
+        "mapSrc": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59422.19001596976!2d39.803556!3d21.433691000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c21b44da2e25b9%3A0x396c74b31dc880ae!2z2LnZitin2K_Yp9iqINin2YTYrNmI2K_YqSBRdWFsaXR5IENsaW5pY3M!5e0!3m2!1sen!2sus!4v1747027701613!5m2!1sen!2sus",
+        "timing": "Saturday to Thursday 01:00 PM - 09:00 PM",
+        "timing1": ""
+      },
+      "JuffaliBranchMakkah": {
+        "name": "Juffali Branch, Makkah",
+        "address": "Makkah, Al Awali neighborhood, Ibrahim Al Juffali Street, next to the Turkish Taste Restaurant - first floor",
+        "mapSrc": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59452.18467702799!2d39.880652!3d21.359899!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c20593edc83689%3A0x2f74b7c0052132f!2sQuality%20Dental%20Clinics%20-%20Al%20Awali!5e0!3m2!1sen!2sus!4v1747027742727!5m2!1sen!2sus",
+        "timing": "From Saturday to Wednesday 09:00 AM - 10:00 PM ",
+        "timing1": " 01:00 PM - 09:00 PM"
+      },
+      "AlSaudBranchMakkah": {
+        "name": "Al Saud Branch, Makkah",
+        "address": "Makkah, Al Awali neighborhood, Al Saud Plaza - Gate 2 - Second Floor ",
+        "mapSrc": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59451.77317870628!2d39.886897!3d21.360913!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c20546de57e537%3A0xaf3f48e8912c70e9!2z2LnZitin2K_Yp9iqINin2YTYrNmI2K_YqSBRdWFsaXR5IENsaW5pY3M!5e0!3m2!1sen!2sus!4v1747027791808!5m2!1sen!2sus",
+        "timing": "From Saturday to Wednesday 09:00 AM - 10:00 PM ",
+        "timing1": "Thursday 09:00 AM - 09:00 PM"
+      },
+      "ShawkiyaBranchMakkah": {
+        "name": "Shawkiya Branch, Makkah",
+        "address": "Makkah, Shawkiyah neighborhood - Abdul Qader Koshak, back entrance of the wood stove building - second floor",
+        "mapSrc": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d118874.81150224665!2d39.839619!3d21.396288!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c21b004dfadee3%3A0x750d07b532ef9fa1!2z2LnZitin2K_Yp9iqINin2YTYrNmI2K_YqSBRdWFsaXR5IENsaW5pY3M!5e0!3m2!1sen!2sus!4v1747027895496!5m2!1sen!2sus",
+        "timing": "From Saturday to Thursday 01:00 MP - 09:00 PM ",
+        "timing1": ""
+      },
+      "TahliaBranchJeddah": {
+        "name": "Tahlia Branch, Jeddah",
+        "address": "Jeddah, Tahlia Street, Tahlia Jewel Building next to Al Ahli Bank, back gate - fourth floor",
+        "mapSrc": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59374.517918952595!2d39.15748!3d21.550477!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3d0012f582005%3A0x5788ad30cf41a26!2z2LnZitin2K_Yp9iqINin2YTYrNmI2K_YqSBRdWFsaXR5IENsaW5pY3M!5e0!3m2!1sen!2sus!4v1747027977131!5m2!1sen!2sus",
+        "timing": "Saturday to Thursday 01:00 PM - 09:00 PM ",
+        "timing1": "Except Sunday 01:00 PM - 10:00 PM"
+      },
+      "HiraBranchJeddah": {
+        "name": "Hira Branch, Jeddah",
+        "address": "Jeddah, southeast of Hira Street, Madinah Road intersection, above the car showroom - second floor",
+        "mapSrc": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59348.664786829315!2d39.15625!3d21.61356!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3d1bdbcb78bfb%3A0xdea8f48fe1fa51c0!2z2LnZitin2K_Yp9iqINin2YTYrNmI2K_YqSBRdWFsaXR5IENsaW5pY3M!5e0!3m2!1sen!2sus!4v1747028058911!5m2!1sen!2sus",
+        "timing": "Saturday to Wednesday 09:00 AM - 10:00 PM",
+        "timing1": " Thursday 09:00 AM - 09:00 PM"
+      },
+      "HamdaniyaBranchJeddah": {
+        "name": "Hamdaniya Branch, Jeddah",
+        "address": "Jeddah, Al-Hamdaniya neighborhood - Al-Hamdaniya General Street, next to Chocoline - second floor",
+        "mapSrc": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59295.38326655214!2d39.191051!3d21.74302!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c17d5f88f45171%3A0x9c490f5e086ab652!2z2LnZitin2K_Yp9iqINin2YTYrNmI2K_YqSB8IFF1YWxpdHkgQ2xpbmljcw!5e0!3m2!1sen!2sus!4v1747028100130!5m2!1sen!2sus",
+        "timing": "Saturday to Thursday 01:00 PM - 09:00 PM",
+        "timing1": ""
+      },
+      "OlayaBranchTabuk": {
+        "name": "Olaya Branch, Tabuk",
+        "address": "Tabuk, Olaya - Imam Turki bin Abdullah Road",
+        "mapSrc": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d56163.870320835355!2d36.588245!3d28.381761!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15a9ad2509b0913f%3A0x7817e0b2738dc701!2z2LnZitin2K_Yp9iqINin2YTYrNmI2K_YqSBRdWFsaXR5IENsaW5pY3M!5e0!3m2!1sen!2sus!4v1747028174281!5m2!1sen!2sus",
+        "timing": "Saturday 01:30 PM - 09:30 PM ",
+        "timing1": "Sunday through Thursday 09:00 AM - 09:00 PM"
+      },
+       "BaniHarithaMadinah": {
+        "name": "Bani Haritha Madinah",
+        "address": "Madinah – King Abdullah Road ",
+        "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.129450796309!2d39.592391475357616!3d24.44629367820194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15bdbfb1212c1753%3A0x4e0307e3c6832377!2sKing%20Abdullah%20Rd%2C%20Madinah%20Saudi%20Arabia!5e0!3m2!1sen!2sin!4v1750676095278!5m2!1sen!2sin",
+        "timing": "Saturday to Thursday 1:00 PM – 9:00 PM"
+       
+      },
+         "SheharTaif": {
+        "name": "Shehar Taif",
+        "address": "Tabuk, Olaya - Imam Turki bin Abdullah Road",
+        "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5587.6802538302945!2d40.41188554033071!3d21.248737042798645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15e98f0027fc9139%3A0x96572c7004f869d8!2z2LnZitin2K_Yp9iqINin2YTYrNmI2K_YqSBRdWFsaXR5IGNsaW5pY3M!5e0!3m2!1sen!2sin!4v1751286837105!5m2!1sen!2sin"
+      }
+    }
+  },
+  "branches": {
+    "nozha": "Nozha Branch - Makkah",
+    "juffali": "Juffali Branch - Makkah",
+    "alsaud": "Al Saud Branch - Makkah",
+    "shawkiya": "Shawkiya Branch - Makkah",
+    "tahlia": "Tahlia Branch - Jeddah",
+    "hira": "Hira Branch - Jeddah",
+    "hamdaniya": "Hamdaniya Branch - Jeddah",
+    "olaya": "Olaya Branch - Tabuk",
+    "inquiry": "For reservations and inquiries",
+    "complaint": "For complaints and suggestions"
+  }
+}

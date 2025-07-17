@@ -1,0 +1,238 @@
+@import "tailwindcss";
+
+/* @font-face {
+  font-family: 'BahijNazanin-Regular';
+  src: url('/src/assets/FONT/English/Bahij_Nazanin-Regular.ttf') format('TrueType'),
+  url('/src/assets/FONT/English/Bahij_Nazanin-Regular.ttf') format('TrueType');
+  font-weight: normal;
+  font-style: normal;
+} */
+/* src/index.css */
+
+
+
+:root {
+  --primary-color: #1AB8B3;
+  --secondary-color: #1A4578;
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+
+/* .container {
+  max-width: 1280px;     
+  margin-left: auto;     
+  margin-right: auto;
+  padding-left: 1rem;    
+  padding-right: 1rem;
+  padding-top: 2rem;    
+  padding-bottom: 2rem;
+} */
+
+/* index.css */
+
+.container {
+  max-width: 1280px;       /* max-w-7xl = 80rem = 1280px */
+  margin-left: auto;       /* mx-auto */
+  margin-right: auto;
+  padding-left: 1.5rem;    /* px-6 = 1.5rem */
+  padding-right: 1.5rem;
+  padding-top: 1rem;       /* py-4 = 1rem */
+  padding-bottom: 1rem;
+}
+
+
+@layer utilities {
+  .bg-gradient-custom {
+    background: linear-gradient(7deg,rgba(26, 184, 179, 1) 0%, rgba(26, 69, 120, 1) 90%);
+  }
+  .text-gradient-custom {
+    background: linear-gradient(7deg, rgba(26, 184, 179, 1) 0%, rgba(26, 69, 120, 1) 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .shadow-gradient-custom {
+    box-shadow: 0 60px 140px 60px rgba(26, 184, 179, 0.35), 0 40px 120px 40px rgba(26, 69, 120, 0.3);
+  }
+  
+  .border-primary {
+    border: 2px solid #1AB8B3;
+  }
+
+}
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+  overflow-y: auto; 
+  height: auto;
+  overflow-x: hidden;
+  /* font-family: 'Roobert'; */
+}
+
+
+@layer base {
+  .font-english {
+    h1 {
+      @apply text-[36px] leading-[44px] font-medium tracking-normal sm:text-[44px] sm:leading-[54px] md:text-[56px] md:leading-[67px];
+      font-family: 'Bahij_Nazanin', serif;
+    }
+    h2 {
+      @apply text-[36px] leading-[42px] font-normal tracking-normal sm:text-[48px] sm:leading-[48px] md:text-[64px] md:leading-[64px];
+      font-family: 'Bahij_Nazanin', serif;
+    }
+    h3 {
+      @apply text-[28px] leading-[36px] font-normal tracking-normal sm:text-[36px] sm:leading-[44px] md:text-[48px] md:leading-[58px];
+      font-family: 'Bahij_Nazanin', serif;
+    }
+    h4 {
+      @apply text-[16px] leading-[20px] font-light tracking-normal sm:text-[18px] sm:leading-[22px] md:text-[20px] md:leading-[24px];
+      font-family: 'Bahij_Nazanin', serif;
+    }
+    p {
+      @apply text-[16px] leading-[24px] font-light tracking-normal sm:text-[17px] sm:leading-[26px] md:text-[22px] md:leading-[27px];
+      font-family: 'Bahij_Nazanin', serif;
+    }
+    small, .sub-para {
+      @apply text-[12px] leading-[18px] font-light tracking-normal sm:text-[13px] sm:leading-[18px] md:text-[14px] md:leading-[20px];
+      font-family: 'Bahij_Nazanin', serif;
+    }
+    li {
+      @apply text-[12px] leading-[18px] font-light tracking-normal sm:text-[13px] sm:leading-[18px] md:text-[14px] md:leading-[21px];
+      font-family: 'Bahij_Nazanin', serif;
+    }
+    button {
+      @apply text-[12px] leading-[18px] font-light tracking-normal sm:text-[13px] sm:leading-[18px] md:text-[16px] md:leading-[24px];
+      font-family: 'Bahij_Nazanin', serif;
+    }
+  }
+
+  .font-arabic {
+    h1 {
+      @apply text-[36px] leading-[44px] font-medium tracking-normal sm:text-[44px] sm:leading-[54px] md:text-[56px] md:leading-[67px];
+      font-family: 'Almarai', sans-serif;
+    }
+    h2 {
+      @apply text-[36px] leading-[42px] font-normal tracking-normal sm:text-[48px] sm:leading-[48px] md:text-[64px] md:leading-[64px];
+      font-family: 'Almarai', sans-serif;
+    }
+    h3 {
+      @apply text-[28px] leading-[36px] font-normal tracking-normal sm:text-[36px] sm:leading-[44px] md:text-[48px] md:leading-[58px];
+      font-family: 'Almarai', sans-serif;
+    }
+    h4 {
+      @apply text-[16px] leading-[20px] font-light tracking-normal sm:text-[18px] sm:leading-[22px] md:text-[20px] md:leading-[24px];
+      font-family: 'Almarai', sans-serif;
+    }
+    p {
+      @apply text-[16px] leading-[24px] font-light tracking-normal sm:text-[17px] sm:leading-[26px] md:text-[18px] md:leading-[27px];
+      font-family: 'Almarai', sans-serif;
+    }
+    small, .sub-para {
+      @apply text-[12px] leading-[18px] font-light tracking-normal sm:text-[13px] sm:leading-[18px] md:text-[14px] md:leading-[20px];
+      font-family: 'Almarai', sans-serif;
+    }
+    li {
+      @apply text-[12px] leading-[18px] font-light tracking-normal sm:text-[13px] sm:leading-[18px] md:text-[14px] md:leading-[21px];
+      font-family: 'Almarai', sans-serif;
+    }
+    button {
+      @apply text-[12px] leading-[18px] font-light tracking-normal sm:text-[13px] sm:leading-[18px] md:text-[16px] md:leading-[24px];
+      font-family: 'Almarai', sans-serif;
+    }
+  }
+}
+
+
+
+
+
+
+@font-face {
+  font-family: 'Almarai';
+  src: url('/src/assets/FONT/Arabic/Almarai-Regular.ttf') format('truetype'),
+  url('/src/assets/FONT/Arabic/Almarai-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Bahij_Nazanin';
+  src: url('/src/assets/FONT/English/Bahij_Nazanin-Regular.ttf') format('truetype'),
+  url('/src/assets/FONT/English/Bahij_Nazanin-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+canvas {
+  background-color: transparent !important;
+}
+
+
+
+@keyframes marquee-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes marquee-right {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+.marquee-left {
+  animation: marquee-left 40s linear infinite;
+}
+
+.marquee-right {
+  animation: marquee-right 40s linear infinite;
+}
+
+
+.group:hover .animate-marquee,
+.group:hover .animate-marquee-reverse {
+  animation-play-state: paused;
+}
+
+/* Optional: pause on hover
+.marquee-left:hover,
+.marquee-right:hover {
+  animation-play-state: paused;
+} */
+
+
+
+
+@media (max-width: 768px) {
+  .card-overlay {
+    transform: translateY(0%) !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+  }
+}
+
