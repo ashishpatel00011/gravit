@@ -323,7 +323,7 @@ const VerticalScrollTimeline = () => {
               }}
             >
               <img
-                src="/chairman.png"
+                src="/chairmen.webp"
                 alt="Chairman"
                 loading="eager"
                 className="mx-auto w-[460px] h-[420px] object-contain"
@@ -364,7 +364,7 @@ const VerticalScrollTimeline = () => {
               }}
             >
               <img
-                src="/chairman.png"
+                src="/chairmen.webp"
                 alt="Chairman"
                 loading="eager"
                 className="mx-auto w-[320px] h-[360px] object-contain"
