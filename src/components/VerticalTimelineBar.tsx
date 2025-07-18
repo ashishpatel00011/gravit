@@ -306,12 +306,14 @@ const VerticalScrollTimeline = () => {
 
     return (
       <div
-        className="timeline-item flex flex-col md:grid md:grid-cols-12 items-start my-32 md:my-32 relative"
+        className={`timeline-item flex flex-col md:grid md:grid-cols-12 items-start relative
+        ${(item.id === 6 || item.id === 5) ? 'my-0 md:my-32' : 'my-10 md:my-32'}`}
         style={{
           willChange: "transform, opacity",
           backfaceVisibility: "hidden",
         }}
       >
+
         <div className="hidden md:col-span-5 md:pr-4 md:text-right md:block">
           {item.id === 6 ? (
             <div
@@ -355,19 +357,20 @@ const VerticalScrollTimeline = () => {
         <div className="w-full pl-12 md:col-span-5 md:pl-4 md:text-left">
           {item.id === 6 && (
             <div
-              className="flex justify-center items-center mb-4 md:hidden"
+              className="flex justify-center items-center md:hidden"
               style={{
                 transform: "translateZ(0)",
                 willChange: "transform",
                 backfaceVisibility: "hidden",
-                height: "360px",
+                marginBottom: "0px", // Remove bottom margin
+                height: "auto",       // Let image height control spacing
               }}
             >
               <img
                 src="/chairmen.webp"
                 alt="Chairman"
                 loading="eager"
-                className="mx-auto w-[320px] h-[360px] object-contain"
+                className="mx-auto w-[320px] h-[280px] object-contain"
                 style={{
                   transform: "translateZ(0)",
                   backfaceVisibility: "hidden",
