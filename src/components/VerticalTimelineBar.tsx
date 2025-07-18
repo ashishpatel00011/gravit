@@ -201,7 +201,8 @@
 // };
 
 import { ReactNode, useEffect, useRef, useState } from "react";
-import { motion } from "framer-motion";
+import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
+
 import { useTranslation } from "react-i18next";
 import { UpdatedButton } from "./Progressbar";
 
@@ -259,47 +260,67 @@ const timelineData: TimelineItem[] = [
   },
 ];
 
-const clamp = (num: number, min: number, max: number) => Math.min(Math.max(num, min), max);
+// const clamp = (num: number, min: number, max: number) => Math.min(Math.max(num, min), max);
 
 const VerticalScrollTimeline = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const timelineRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
-  const [scrollProgress, setScrollProgress] = useState(0);
+  const scrollProgressMotion = useMotionValue(0);
+  const smoothScrollProgress = useSpring(scrollProgressMotion, {
+    stiffness: 100,
+    damping: 20,
+  });
+
+  // Convert to CSS string format
+  const smoothHeight = useTransform(smoothScrollProgress, (p) => `${p * 100}%`);
+  const smoothTop = useTransform(smoothScrollProgress, (p) => `${p * 100}%`);
   const { t, i18n } = useTranslation();
   const isArabic = i18n.language === "ar";
 
   useEffect(() => {
-    let animationFrameId: number;
-
     const handleScroll = () => {
       if (!containerRef.current) return;
 
       const container = containerRef.current;
-      const { top, height } = container.getBoundingClientRect();
+
+      // 1. ✅ Scroll progress (0 to 1)
+      const scrollTop = window.scrollY;
+      const containerTop = container.offsetTop;
+      const containerHeight = container.scrollHeight;
       const viewportHeight = window.innerHeight;
 
-      const progress = clamp((-top) / (height - viewportHeight), 0, 1);
-      setScrollProgress(progress);
+      const maxScroll = containerHeight - viewportHeight;
+      const progress = Math.max(0, Math.min(1, (scrollTop - containerTop) / maxScroll));
+      scrollProgressMotion.set(progress); // ✅ Update progress bar
 
-      const threshold = 1 / timelineData.length;
-      const newIndex = Math.min(Math.floor(progress / threshold), timelineData.length - 1);
-      setActiveIndex((prev) => (prev !== newIndex ? newIndex : prev));
+      // 2. ✅ Active index based on which item is nearest to center
+      const items = container.querySelectorAll(".timeline-item");
+      const viewportCenter = window.innerHeight / 2;
+
+      let closestIndex = 0;
+      let closestDistance = Infinity;
+
+      items.forEach((item, index) => {
+        const rect = item.getBoundingClientRect();
+        const itemCenter = rect.top + rect.height / 2;
+        const distance = Math.abs(itemCenter - viewportCenter);
+
+        if (distance < closestDistance) {
+          closestDistance = distance;
+          closestIndex = index;
+        }
+      });
+
+      setActiveIndex((prev) => (prev !== closestIndex ? closestIndex : prev));
     };
 
-    const onScroll = () => {
-      cancelAnimationFrame(animationFrameId);
-      animationFrameId = requestAnimationFrame(handleScroll);
-    };
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Init on mount
 
-    window.addEventListener("scroll", onScroll);
-    handleScroll();
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [scrollProgressMotion]);
 
-    return () => {
-      window.removeEventListener("scroll", onScroll);
-      cancelAnimationFrame(animationFrameId);
-    };
-  }, []);
 
   const TimelineItem = ({ item, index }: { item: TimelineItem; index: number }) => {
     const isActive = index <= activeIndex;
@@ -418,24 +439,24 @@ const VerticalScrollTimeline = () => {
           <motion.div
             className="absolute left-[16px] md:left-1/2 md:-translate-x-1/2 w-1 bg-[#1AB8B3] rounded-full origin-top z-0"
             style={{
-              height: `${scrollProgress * 100}%`,
+              height: smoothHeight,
               top: 0,
-              willChange: "height", // Hint to browser for optimization
-              transform: "translateZ(0)", // Force hardware acceleration
+              willChange: "height",
+              transform: "translateZ(0)",
             }}
             ref={timelineRef}
           />
 
-          {/* Moving Circle */}
           <motion.div
             className="absolute left-[6px] md:left-1/2 md:-translate-x-1/2 w-6 h-6 bg-[#1AB8B3] border-4 border-white rounded-full shadow-lg transition-none z-10"
             style={{
-              top: `${Math.round(scrollProgress * 100)}%`, // Using Math.round to potentially reduce sub-pixel rendering issues
+              top: smoothTop,
               marginTop: -12,
-              willChange: "top", // Hint to browser for optimization
-              transform: "translateZ(0)", // Force hardware acceleration
+              willChange: "top",
+              transform: "translateZ(0)",
             }}
           />
+
 
           {timelineData.map((item, index) => (
             <TimelineItem key={item.id} item={item} index={index} />
