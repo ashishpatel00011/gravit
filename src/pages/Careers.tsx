@@ -154,183 +154,186 @@ export default function Careers() {
   `;
 
   return (
-    <div className="relative -pb-8 bg-black">
-      {/* Top Heading Section - Fixes for cropping */}
-      <div
-        ref={ref}
-        className="bg-black pb-10 pt-20 md:min-h-[auto] flex flex-col items-center justify-center text-white" // Removed min-h-[50vh] and overflow-hidden
-      >
-        <h2 className=" whitespace-nowrap bg-gradient-to-b from-[#2f886c] via-[#c0dbdf] to-[#ffffff] bg-[length:300%] bg-clip-text text-transparent md:text-[64px] leading-tight">
-          {t("careers.description")}
-        </h2>
-        <h2 className=" whitespace-nowrap bg-gradient-to-b from-[#2f886c] via-[#c0dbdf] to-[#ffffff] bg-[length:300%] bg-clip-text text-transparent md:text-[60px] mt-4 leading-tight">
-          {t("careers.title")}
-        </h2>
-      </div>
+    <div className="overflow-x-hidden w-full">
 
-      <div className=" bg-black container mx-auto p-6">
+      <div className="relative -pb-8 bg-black">
+        {/* Top Heading Section - Fixes for cropping */}
         <div
-          className=" gap-4 min-h-[400px] flex md:flex-row flex-col items-center justify-center pb-20"
-          style={{ direction: isArabic ? "rtl" : "ltr" }}
+          ref={ref}
+          className="bg-black pb-10 pt-20 md:min-h-[auto] flex flex-col items-center justify-center text-white" // Removed min-h-[50vh] and overflow-hidden
         >
-          <div className="text-white rounded-lg shadow md:min-w-[50%] w-95">
-            {/* Form Container - Removed fixed height/overflow for flexibility */}
+          <h2 className="  bg-gradient-to-b from-[#2f886c] via-[#c0dbdf] to-[#ffffff] bg-[length:300%] bg-clip-text text-transparent md:text-[64px] leading-tight">
+            {t("careers.description")}
+          </h2>
+          <h2 className=" bg-gradient-to-b from-[#2f886c] via-[#c0dbdf] to-[#ffffff] bg-[length:300%] bg-clip-text text-transparent md:text-[60px] mt-4 leading-tight">
+            {t("careers.title")}
+          </h2>
+        </div>
+
+        <div className=" bg-black container mx-auto p-6">
+          <div
+            className=" gap-4 min-h-[400px] flex md:flex-row flex-col items-center justify-center pb-20"
+            style={{ direction: isArabic ? "rtl" : "ltr" }}
+          >
+            <div className="text-white rounded-lg shadow md:min-w-[50%] w-95">
+              {/* Form Container - Removed fixed height/overflow for flexibility */}
+              <div
+                ref={ref}
+                className="bg-black flex flex-col items-center justify-center text-white relative px-5 py-10" // Removed min-h and overflow, added general padding
+                style={{
+                  marginTop: "", // Keep this if you have specific external margin, otherwise can remove
+                }}
+              >
+                <form
+                  onSubmit={(e) => handleSubmit(e as any)}
+                  className="md:max-w-[1208px] text-left md:w-[100%] w-[95%] p-1 md:px-10"
+                >
+                  <h2 className="text-left mb-15 ">{t("careers.subTitle")}</h2>
+                  <div className="flex justify-center items-center gap-4 mb-4 md:mt-5 ">
+                    <div className="w-1/2"> {/* Set to w-1/2 for equal split */}
+                      <input
+                        type="text"
+                        placeholder={t("careers.formFields.firstName")}
+                        className={getInputClasses("firstName")}
+                        value={firstName}
+                        onChange={(e) => {
+                          setFirstName(e.target.value);
+                          setErrors((prev) => ({ ...prev, firstName: "" }));
+                        }}
+                      />
+                      {formSubmitted && errors.firstName && (
+                        <p className="text-red-500 text-sm mt-1">
+                          {errors.firstName}
+                        </p>
+                      )}
+                    </div>
+                    <div className="w-1/2"> {/* Set to w-1/2 for equal split */}
+                      <input
+                        type="text"
+                        placeholder={t("careers.formFields.lastName")}
+                        className={getInputClasses("lastName")}
+                        value={lastName}
+                        onChange={(e) => {
+                          setLastName(e.target.value);
+                          setErrors((prev) => ({ ...prev, lastName: "" }));
+                        }}
+                      />
+                      {formSubmitted && errors.lastName && (
+                        <p className="text-red-500 text-sm mt-1">
+                          {errors.lastName}
+                        </p>
+                      )}
+                    </div>
+                  </div>
+                  <div className="mb-4">
+                    <input
+                      type="text"
+                      placeholder={t("careers.formFields.postApplyingFor")}
+                      className={getInputClasses("postApplyingFor")}
+                      value={postApplyingFor}
+                      onChange={(e) => {
+                        setPostApplyingFor(e.target.value);
+                        setErrors((prev) => ({ ...prev, postApplyingFor: "" }));
+                      }}
+                    />
+                    {formSubmitted && errors.postApplyingFor && (
+                      <p className="text-red-500 text-sm mt-1">
+                        {errors.postApplyingFor}
+                      </p>
+                    )}
+                  </div>
+                  <div className="mb-4">
+                    <input
+                      type="email"
+                      placeholder={t("careers.formFields.emailAddress")}
+                      className={getInputClasses("emailAddress")}
+                      value={emailAddress}
+                      onChange={(e) => {
+                        setEmailAddress(e.target.value);
+                        setErrors((prev) => ({ ...prev, emailAddress: "" }));
+                      }}
+                    />
+                    {formSubmitted && errors.emailAddress && (
+                      <p className="text-red-500 text-sm mt-1">
+                        {errors.emailAddress}
+                      </p>
+                    )}
+                  </div>
+                  <div className="mb-4">
+                    <input
+                      value={phone}
+                      onChange={handlePhone}
+                      type="text"
+                      maxLength={15}
+                      placeholder={t("careers.formFields.contact")}
+                      className={getInputClasses("phone")}
+                      dir={isArabic ? "rtl" : "ltr"}
+                    />
+                    {formSubmitted && errors.phone && (
+                      <p className="text-red-500 text-sm mt-1">{errors.phone}</p>
+                    )}
+                  </div>
+
+                  <div className="flex justify-left items-center gap-2 mb-3 mt-4">
+                    <label
+                      htmlFor="fileUpload"
+                      className="flex items-center text-white"
+                    >
+                      {t("careers.formFields.attachResume")}
+                      <span className="text-red-500 ml-1">*</span>
+                    </label>
+                  </div>
+                  <div className="mb-4">
+                    <input
+                      type="file"
+                      id="fileUpload"
+                      onChange={handleFileChange}
+                      className="hidden"
+                      accept=".pdf,.doc,.docx" // Restrict file types
+                    />
+                    {/* Corrected JSX structure for the file upload label */}
+                    <label
+                      htmlFor="fileUpload"
+                      className={`flex md:w-full w-[98%] h-[48px] px-4 py-3 rounded-[8px] font-light text-[16px] text-white border items-center justify-between cursor-pointer ${isArabic ? "text-right" : "text-left"
+                        } ${errors.resume ? "border-red-500" : "border-white"}`}
+                    >
+                      {fileName} {/* Displays the selected file name */}
+                      <span className="text-white-400">Browse</span>{" "}
+                      {/* The "Browse" button text */}
+                    </label>
+                    {formSubmitted && errors.resume && (
+                      <p className="text-red-500 text-sm mt-1">{errors.resume}</p>
+                    )}
+                  </div>
+                  <button
+                    type="submit"
+                    className="bg-primary text-[16px] font-light text-white md:w-[220px] w-[98%] h-[48px] px-[4px] pt-5px rounded-md cursor-pointer mt-4"
+                  >
+                    {t("careers.formFields.submit")}
+                  </button>
+                </form>
+              </div>
+            </div>
             <div
-              ref={ref}
-              className="bg-black flex flex-col items-center justify-center text-white relative px-5 py-10" // Removed min-h and overflow, added general padding
+              className="text-white rounded-lg shadow w-full h-[540px]"
               style={{
-                marginTop: "", // Keep this if you have specific external margin, otherwise can remove
+                display: "flex",
+                alignContent: "center",
+                justifyContent: "center",
+                alignItems: "center",
+                overflow: "hidden", // This overflow-hidden is fine for the image container
               }}
             >
-              <form
-                onSubmit={(e) => handleSubmit(e as any)}
-                className="md:max-w-[1208px] text-left md:w-[100%] w-[95%] p-1 md:px-10"
-              >
-                <h2 className="text-left mb-15 ">{t("careers.subTitle")}</h2>
-                <div className="flex justify-center items-center gap-4 mb-4 md:mt-5 ">
-                  <div className="w-1/2"> {/* Set to w-1/2 for equal split */}
-                    <input
-                      type="text"
-                      placeholder={t("careers.formFields.firstName")}
-                      className={getInputClasses("firstName")}
-                      value={firstName}
-                      onChange={(e) => {
-                        setFirstName(e.target.value);
-                        setErrors((prev) => ({ ...prev, firstName: "" }));
-                      }}
-                    />
-                    {formSubmitted && errors.firstName && (
-                      <p className="text-red-500 text-sm mt-1">
-                        {errors.firstName}
-                      </p>
-                    )}
-                  </div>
-                  <div className="w-1/2"> {/* Set to w-1/2 for equal split */}
-                    <input
-                      type="text"
-                      placeholder={t("careers.formFields.lastName")}
-                      className={getInputClasses("lastName")}
-                      value={lastName}
-                      onChange={(e) => {
-                        setLastName(e.target.value);
-                        setErrors((prev) => ({ ...prev, lastName: "" }));
-                      }}
-                    />
-                    {formSubmitted && errors.lastName && (
-                      <p className="text-red-500 text-sm mt-1">
-                        {errors.lastName}
-                      </p>
-                    )}
-                  </div>
-                </div>
-                <div className="mb-4">
-                  <input
-                    type="text"
-                    placeholder={t("careers.formFields.postApplyingFor")}
-                    className={getInputClasses("postApplyingFor")}
-                    value={postApplyingFor}
-                    onChange={(e) => {
-                      setPostApplyingFor(e.target.value);
-                      setErrors((prev) => ({ ...prev, postApplyingFor: "" }));
-                    }}
-                  />
-                  {formSubmitted && errors.postApplyingFor && (
-                    <p className="text-red-500 text-sm mt-1">
-                      {errors.postApplyingFor}
-                    </p>
-                  )}
-                </div>
-                <div className="mb-4">
-                  <input
-                    type="email"
-                    placeholder={t("careers.formFields.emailAddress")}
-                    className={getInputClasses("emailAddress")}
-                    value={emailAddress}
-                    onChange={(e) => {
-                      setEmailAddress(e.target.value);
-                      setErrors((prev) => ({ ...prev, emailAddress: "" }));
-                    }}
-                  />
-                  {formSubmitted && errors.emailAddress && (
-                    <p className="text-red-500 text-sm mt-1">
-                      {errors.emailAddress}
-                    </p>
-                  )}
-                </div>
-                <div className="mb-4">
-                  <input
-                    value={phone}
-                    onChange={handlePhone}
-                    type="text"
-                    maxLength={15}
-                    placeholder={t("careers.formFields.contact")}
-                    className={getInputClasses("phone")}
-                    dir={isArabic ? "rtl" : "ltr"}
-                  />
-                  {formSubmitted && errors.phone && (
-                    <p className="text-red-500 text-sm mt-1">{errors.phone}</p>
-                  )}
-                </div>
-
-                <div className="flex justify-left items-center gap-2 mb-3 mt-4">
-                  <label
-                    htmlFor="fileUpload"
-                    className="flex items-center text-white"
-                  >
-                    {t("careers.formFields.attachResume")}
-                    <span className="text-red-500 ml-1">*</span>
-                  </label>
-                </div>
-                <div className="mb-4">
-                  <input
-                    type="file"
-                    id="fileUpload"
-                    onChange={handleFileChange}
-                    className="hidden"
-                    accept=".pdf,.doc,.docx" // Restrict file types
-                  />
-                  {/* Corrected JSX structure for the file upload label */}
-                  <label
-                    htmlFor="fileUpload"
-                    className={`flex md:w-full w-[98%] h-[48px] px-4 py-3 rounded-[8px] font-light text-[16px] text-white border items-center justify-between cursor-pointer ${isArabic ? "text-right" : "text-left"
-                      } ${errors.resume ? "border-red-500" : "border-white"}`}
-                  >
-                    {fileName} {/* Displays the selected file name */}
-                    <span className="text-white-400">Browse</span>{" "}
-                    {/* The "Browse" button text */}
-                  </label>
-                  {formSubmitted && errors.resume && (
-                    <p className="text-red-500 text-sm mt-1">{errors.resume}</p>
-                  )}
-                </div>
-                <button
-                  type="submit"
-                  className="bg-primary text-[16px] font-light text-white md:w-[220px] w-[98%] h-[48px] px-[4px] pt-5px rounded-md cursor-pointer mt-4"
-                >
-                  {t("careers.formFields.submit")}
-                </button>
-              </form>
+              <img
+                src={"/Images/IMG_1502_jpg.jpg"}
+                alt=""
+                className="w-full h-full object-cover" />
             </div>
           </div>
-          <div
-            className="text-white rounded-lg shadow w-full h-[540px]"
-            style={{
-              display: "flex",
-              alignContent: "center",
-              justifyContent: "center",
-              alignItems: "center",
-              overflow: "hidden", // This overflow-hidden is fine for the image container
-            }}
-          >
-            <img
-              src={"/Images/IMG_1502_jpg.jpg"}
-              alt=""
-              className="w-full h-full object-cover" />
-          </div>
         </div>
+        <Book />
+        <MobileLink />
       </div>
-      <Book />
-      <MobileLink />
     </div>
   );
 }
