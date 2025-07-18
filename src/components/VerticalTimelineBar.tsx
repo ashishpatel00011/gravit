@@ -199,8 +199,8 @@
 //     </div>
 //   );
 // };
-
-import { ReactNode, useEffect, useRef, useState } from "react";
+import React from "react";
+import { ReactNode, useEffect, useRef, useState} from "react";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 
 import { useTranslation } from "react-i18next";
@@ -322,7 +322,7 @@ const VerticalScrollTimeline = () => {
   }, [scrollProgressMotion]);
 
 
-  const TimelineItem = ({ item, index }: { item: TimelineItem; index: number }) => {
+  const TimelineItem = React.memo(({ item, index }: { item: TimelineItem; index: number }) => {
     const isActive = index <= activeIndex;
 
     return (
@@ -339,22 +339,22 @@ const VerticalScrollTimeline = () => {
           {item.id === 6 ? (
             <div
               className="flex justify-end items-center h-full"
+            style={{
+              transform: "translateZ(0)",
+              willChange: "transform",
+              backfaceVisibility: "hidden",
+            }}
+            >
+              <img
+                src="/chairmen.webp"
+                alt="Chairman"
+                loading="lazy"
+                className="mx-auto w-[460px] h-[420px] object-contain"
               style={{
                 transform: "translateZ(0)",
                 willChange: "transform",
                 backfaceVisibility: "hidden",
               }}
-            >
-              <img
-                src="/chairmen.webp"
-                alt="Chairman"
-                loading="eager"
-                className="mx-auto w-[460px] h-[420px] object-contain"
-                style={{
-                  transform: "translateZ(0)",
-                  willChange: "transform",
-                  backfaceVisibility: "hidden",
-                }}
               />
             </div>
 
@@ -380,9 +380,9 @@ const VerticalScrollTimeline = () => {
             <div
               className="flex justify-center items-center md:hidden"
               style={{
-                transform: "translateZ(0)",
-                willChange: "transform",
-                backfaceVisibility: "hidden",
+                // transform: "translateZ(0)",
+                // willChange: "transform",
+                // backfaceVisibility: "hidden",
                 marginBottom: "0px", // Remove bottom margin
                 height: "auto",       // Let image height control spacing
               }}
@@ -390,13 +390,13 @@ const VerticalScrollTimeline = () => {
               <img
                 src="/chairmen.webp"
                 alt="Chairman"
-                loading="eager"
+                loading="lazy"
                 className="mx-auto w-[320px] h-[280px] object-contain"
-                style={{
-                  transform: "translateZ(0)",
-                  backfaceVisibility: "hidden",
-                  willChange: "transform",
-                }}
+              // style={{
+              //   transform: "translateZ(0)",
+              //   backfaceVisibility: "hidden",
+              //   willChange: "transform",
+              // }}
               />
             </div>
           )}
@@ -429,7 +429,7 @@ const VerticalScrollTimeline = () => {
         </div>
       </div>
     );
-  };
+  });
 
   return (
     <div className="min-h-screen" dir={isArabic ? "rtl" : "ltr"}>
